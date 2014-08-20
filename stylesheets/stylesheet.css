@@ -71,6 +71,13 @@ header {
   border-bottom: solid 1px #275da1;
 }
 
+header a {
+  color: #fff;
+}
+header a:hover {
+  color: #fff;
+}
+
 header h1 {
   letter-spacing: -1px;
   font-size: 72px;
