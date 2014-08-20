@@ -2,8 +2,8 @@
 layout: post
 title: KouChat for Android v0.10.0 is out!
 ---
-The new modernized user interface is ready! With new high resolution graphics goodness :)
 
+The new modernized user interface is ready! With new high resolution graphics goodness :)
 I think it looks a lot better. Judge for yourself, by looking at these before and after screenshots:
 
 [![KouChat for Android v0.9.0]({{ site.baseurl }}/images/screenshots/kouchat_android_v0.9.0_screenshot_main_chat.png "KouChat for Android v0.9.0. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/kouchat_android_v0.9.0_screenshot_main_chat.png)
