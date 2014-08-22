@@ -104,9 +104,6 @@ GEM
     redcarpet (3.1.2)
     safe_yaml (1.0.3)
     sass (3.4.0)
-    therubyrhino (2.0.4)
-      therubyrhino_jar (>= 1.7.3)
-    therubyrhino_jar (1.7.4)
     thread_safe (0.3.4)
     timers (1.1.0)
     toml (0.1.1)
@@ -122,4 +119,3 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  therubyrhino
