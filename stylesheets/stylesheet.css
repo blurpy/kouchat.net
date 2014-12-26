@@ -131,11 +131,11 @@ header .menubar li:first-child {
 #content-wrapper {
   border-top: solid 1px #fff;
   padding-top: 30px;
-  padding-bottom: 100px;
+  padding-bottom: 120px;
 }
 
 #main-content {
-  width: 690px;
+  width: 940px;
   float: left;
 }
 
@@ -182,10 +182,10 @@ header a.button {
   top: 0;
   background: transparent url(../images/github-button.png) 0 0 no-repeat;
 }
-aside a.button {
+a.download {
   width: 138px;
   padding-left: 64px;
-  display: block;
+  display: inline-block;
   background: transparent url(../images/download-button.png) 0 0 no-repeat;
   margin-bottom: 20px;
   font-size: 21px;
