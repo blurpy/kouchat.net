@@ -162,6 +162,10 @@ p.repo-owner a {
   margin-bottom: 40px;
 }
 
+small {
+  font-size: 11px;
+}
+
 a.button {
   width: 134px;
   height: 58px;
@@ -174,7 +178,6 @@ a.button {
 }
 a.button small {
   display: block;
-  font-size: 11px;
 }
 header a.button {
   position: absolute;
@@ -386,6 +389,17 @@ footer {
   bottom: 0;
   width: 100%;
   border-top: solid 1px #ddd;
+}
+
+footer small {
+  color: #aaaaaa;
+}
+
+footer small a {
+  color: #666;
+}
+footer small a:hover {
+  color: #444;
 }
 
 /* MISC */
