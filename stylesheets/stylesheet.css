@@ -117,6 +117,13 @@ header .menubar li:first-child {
   padding: 0;
 }
 
+header #header-icon {
+  position: absolute;
+  top: 0;
+  right: 70px;
+  width: 160px;
+}
+
 .inner {
   position: relative;
   width: 940px;
@@ -518,6 +525,12 @@ footer small a:hover {
     padding-right: 0;
     margin-left: 0;
   }
+
+  header #header-icon {
+    top: 30px;
+    right: 30px;
+    width: 100px;
+  }
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
@@ -527,7 +540,11 @@ footer small a:hover {
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
-
+  header #header-icon {
+    top: 10px;
+    right: 15px;
+    width: 40px;
+  }
 }
 
 /* My stuff */
