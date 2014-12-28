@@ -1,0 +1,187 @@
+---
+layout: default
+title: Frequently Asked Questions
+---
+
+# Frequently Asked Questions
+
+## 1. What is Kou?
+
+Kou is a cow character I've made. You can see Kou at the [Super Kou](http://superkou.googlecode.com/) project page. Kou is pronounced kind of like the way cows say _moooo_, but it's OK to just call him Cow.
+
+
+## 2. KouChat crashed, doesn't connect, or behaves strangely.
+
+First, make sure you are using the latest version. When you do, the easiest way to find the problem is for you to run KouChat from the command line, like this:
+
+`java -jar kouchat-x.x.x.jar`
+
+If you see any errors, write them down. If nothing of interest shows up, then you can try enabling debug output by running KouChat like this:
+
+`java -jar kouchat-x.x.x.jar --debug`
+
+Please check the other wiki pages for help as well. When you can reproduce the problem, report it as an issue with as many details as possible.
+
+
+## 3. I minimized KouChat, and it's not visible on the taskbar anymore.
+
+Have a look in the system tray. There should be a small black and white icon there with a cow pattern. Click on it to open KouChat again. If you don't find the icon, it might be hidden. Check the system tray settings to make it visible.
+
+
+## 4. How do I change my nick name?
+
+Open the `Tools` menu, and choose `Settings`.
+
+
+## 5. How do I send files?
+
+Right click on a user in the user list on the right side, and choose `Send file`. You can also drag and drop a file on a user in the list, or in a private chat window.
+
+
+## 6. How do I open a private chat?
+
+You can double click on a user in the user list, or you can right click on a user in the user list and choose `Private chat`.
+
+
+## 7. The file chooser is horribly slow in Windows XP.
+
+This is a Java bug, see [bug 6578753](http://bugs.java.com/bugdatabase/view_bug.do?bug_id=6578753). As a workaround you can move any zip-files lying on the desktop to some other folder.
+
+
+## 8. How do I enable console mode?
+
+Run KouChat like this from the command line:
+
+`java -jar kouchat-x.x.x.jar --console`
+
+Type `/help` for a list of commands you can use while in console mode.
+
+
+## 9. How come some messages don't show up in other clients?
+
+That's probably because of packet loss. KouChat uses the UDP protocol, which does not resend lost packets. Packet loss is usually not a problem in wired networks, but wireless networks might have some loss.
+
+
+## 10. Where do the log files go?
+
+The logs are put in `.kouchat/logs/` in your home folder, sorted by date and time of creation.
+
+Examples:
+
+  * Windows XP - `C:\Documents and Settings\Your Username\.kouchat\logs\`
+  * Windows 7 - `C:\Users\Your Username\.kouchat\logs\`
+  * Linux - `/home/username/.kouchat/logs/`
+
+
+## 11. Why do non-ascii characters look wrong when using console mode in Windows?
+
+That's because the command line in Windows uses the old DOS character set instead of the normal Windows character set. A common DOS character set is `cp850` and a common Windows character set is `cp1252`. I've found 2 ways to go around this problem:
+
+1. Change the character set on the command line to match the character set used by Windows. If your Windows character set is cp1252, just run the command '`chcp 1252`' before starting KouChat. For this to work you need a console font which supports the chosen character set, like `Lucida Console`.
+2. Change the character set used by Java to match the character set on the command line. You can get the current command line character set by running the command '`chcp`'. Then use the character set number when starting KouChat: `java -Dfile.encoding=850 -jar kouchat-x.x.x.jar --console`
+
+
+## 12. Why don't I have the Nimbus look and feel?
+
+Nimbus is a new look and feel that comes with Java 6 update 10 and newer.
+If you don't see Nimbus in the list, then you need to update to the
+newest version of Java.
+
+
+## 13. Where can I find an icon to use for shortcuts?
+
+There is an icon available inside `kouchat-x.x.x.jar`, in two different
+formats:
+
+  * kou_shortcut.ico
+  * kou_shortcut.png
+
+To get these, you can just open the jar file in a decompression utility
+like WinZip or 7-Zip.
+
+
+## 14. Which smileys are available?
+
+There are 11 different smileys available, for different needs. Try them :)
+
+  * :)
+  * :(
+  * :p
+  * :D
+  * ;)
+  * :O
+  * :@
+  * :S
+  * ;(
+  * :$
+  * 8)
+
+
+## 15. Why is the window sometimes only maximized vertically or horizontally after being unhidden from the system tray?
+
+I don't know! But I'm unable to reproduce the problem using early versions of Java 7, so I'm guessing it's not my bug ;)
+
+
+## 16. I have a great suggestion for a new feature. What do I do?
+
+Cool :) Just register the suggestion in the issue tracker with "`Feature request`" in the title.
+
+
+## 17. KouChat uses the wrong network interface. How can I switch?
+
+Typical use cases include:
+
+ * You want to connect to the wired network by default, but KouChat keeps connecting to the wireless network.
+ * KouChat connects using a "fake" network interface that ships with virtualization software like `VMware` and `Virtual Box`.
+
+You can override the network interface chosen by KouChat in the settings.
+Choose one in the list and click OK to switch. Tip: hold the mouse cursor over each of the items in the drop down list for more details about the network interface, if available.
+
+
+## 18. How can I get KouChat to open in front of other applications after being unhidden from the system tray in KDE?
+
+The window manager in KDE is usually configured with a feature called
+`Focus stealing prevention`. This feature keeps new windows from opening
+in front and stealing focus. However, when unhiding KouChat from the
+system tray it's usually because one wants to interact with the window, and the
+focus stealing prevention gets in the way.
+
+It can be disabled globally or per application. Here is how to disable for
+KouChat only:
+
+Right click on the title bar of the KouChat window, then click on
+`Advanced/Special Application Settings`. Go to the rightmost tab,
+called something like `Workarounds` or `Appearance & Fixes`
+(depends on the version of KDE). Enable the checkbox on
+`Focus stealing prevention`, and set it to `Force` and `None` in the 2 drop down lists, then click OK to save.
+
+
+## 19. Which ports do I need to have open in the firewall?
+
+If your firewall is blocking network traffic then KouChat will show the text
+"`Not connected`" in the title bar. The following ports needs to be open for
+everything to work correctly:
+
+ * Main chat: `UDP port 40556`
+ * Private chat: `UDP port 40656` (_increased by one for each running instance_)
+ * File transfer: `TCP port 40756`
+ * Network detection: `UDP port 50050`
+
+
+## 20. The KouChat window is invisible over Remote Desktop. How can I fix it?
+
+This happens on some configurations. Try adding '`-Dsun.java2d.noddraw=true`' to the shortcut command when starting KouChat, like this:
+
+`javaw -Dsun.java2d.noddraw=true -jar kouchat-x.x.x.jar`
+
+
+## 21. How can I start KouChat minimized?
+
+_Note: only available in the development version of KouChat 1.3.0._
+
+Add the startup argument '`--minimized`' to the shortcut or script that starts KouChat, like this:
+
+`java -jar kouchat-x.x.x.jar --minimized`
+
+Put the shortcut or script in the startup/autostart folder of your operating
+system to run automatically on boot.
