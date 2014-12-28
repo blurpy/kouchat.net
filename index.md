@@ -5,7 +5,7 @@ title: Home
 
 <h1>About</h1>
 
-KouChat is an open source, serverless, LAN chat application.
+KouChat is an open source, serverless, LAN chat application for desktop and Android.
 
 With KouChat you can chat and send files to other KouChat users on the same local area network. It's intended to be used on your network at home, the coffee shop, work place or similar, and does not require any setup, Internet connection or servers to function.
 
