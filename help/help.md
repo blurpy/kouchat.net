@@ -7,4 +7,5 @@ title: Help
 
 Need help with KouChat?
 
-Perhaps you find an answer in the [Frequently Asked Questions]({{ site.baseurl }}/help/faq.html)?
+* [Frequently Asked Questions]({{ site.baseurl }}/help/faq.html)
+* [Tips And Tricks]({{ site.baseurl }}/help/tips-and-tricks.html)
