@@ -9,7 +9,7 @@ New in this release is an optional wake lock. You can find it in the settings:
 
 The effect of the wake lock is best described using a screenshot:
 
-[![KouChat Desktop showing wake lock timeouts.]({{ site.baseurl }}/images/screenshots/kouchat-wake_lock.png "KouChat Desktop showing wake lock timeouts. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/kouchat-wake_lock.png)
+[![KouChat Desktop showing wake lock timeouts.]({{ site.baseurl }}/images/screenshots/desktop/kouchat-wake_lock.png "KouChat Desktop showing wake lock timeouts. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/desktop/kouchat-wake_lock.png)
 
 I left the screen off on my phone most of that day to test. I started with the wake lock off. The phone timed out several times until I turned the wake lock on after about an hour. Then it stayed connected for several hours until it became unstable when I disabled the wake lock again.
 
