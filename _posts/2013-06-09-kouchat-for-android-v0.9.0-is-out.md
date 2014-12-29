@@ -7,7 +7,7 @@ Another release is out! This time I've mostly been working on file transfer supp
 
 And how do you send a file? You use the "share" feature in different Android applications, like the Gallery:
 
-[![Send file using the gallery]({{ site.baseurl }}/images/screenshots/kouchat_android_v0.9.0_screenshot_send_file_gallery.png "Send file using the gallery. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/kouchat_android_v0.9.0_screenshot_send_file_gallery.png)
+[![Send file using the gallery]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v0.9.0_screenshot_send_file_gallery.png "Send file using the gallery. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v0.9.0_screenshot_send_file_gallery.png)
 
 I've also added support for devices that require extra permissions to use multicast networking, like the HTC One phone. I don't know how many devices that have that requirement, but if you could not get KouChat to work on your Android device with previous versions, then try this one :)
 

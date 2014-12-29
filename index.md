@@ -55,4 +55,4 @@ It's written in Java, and is free software.
 
 [![Google Play](http://www.android.com/images/brand/get_it_on_play_logo_large.png "Get KouChat on Google Play")](https://play.google.com/store/apps/details?id=net.usikkert.kouchat.android)
 
-[![KouChat for Android]({{ site.baseurl }}/images/screenshots/kouchat_android_v1.0.0_screenshot_tablet_10_main_chat.png "KouChat for Android. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/kouchat_android_v1.0.0_screenshot_tablet_10_main_chat.png)
+[![KouChat for Android]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.0_screenshot_tablet_10_main_chat.png "KouChat for Android. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.0_screenshot_tablet_10_main_chat.png)

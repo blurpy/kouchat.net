@@ -3,9 +3,9 @@ layout: post
 title: KouChat for Android v1.0.0 is out!
 ---
 
-This is it! Version 1.0.0 is out! 
+This is it! Version 1.0.0 is out!
 
-[![KouChat v1.0.0]({{ site.baseurl }}/images/screenshots/kouchat_android_v1.0.0_screenshot_tablet_10_main_chat.png "KouChat v1.0.0. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/kouchat_android_v1.0.0_screenshot_tablet_10_main_chat.png)
+[![KouChat v1.0.0]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.0_screenshot_tablet_10_main_chat.png "KouChat v1.0.0. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.0_screenshot_tablet_10_main_chat.png)
 
 I've been thinking about when to go 1.0 for a while. I could have called it 1.0 a long time ago I guess, but in the end I decided to wait until all the main functionality of KouChat was implemented in the Android client.
 
@@ -19,6 +19,6 @@ The changelog:
 
 * Changed default nick name to be "NewUser" instead of a numerical id.
 * The away message of another user, if set, is shown as a subtitle in the ActionBar of the private chat.
-* Added support for away mode. 
+* Added support for away mode.
 
-Get it on Google Play, or download the apk from the downloads section. 
+Get it on Google Play, or download the apk from the downloads section.

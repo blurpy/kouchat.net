@@ -5,9 +5,9 @@ title: KouChat for Android v0.13.0 is out!
 
 The first release of the year is here :)
 
-The focus this time has been minor tweaks to the user interface, and bug fixes. The tweaks mostly consists of extra padding, and increased font sizes (on tablets). 
+The focus this time has been minor tweaks to the user interface, and bug fixes. The tweaks mostly consists of extra padding, and increased font sizes (on tablets).
 
-[![Tweaked UI]({{ site.baseurl }}/images/screenshots/kouchat_android_v0.13.0_screenshot_tablet_10_main_chat.png "Tweaked UI. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/kouchat_android_v0.13.0_screenshot_tablet_10_main_chat.png)
+[![Tweaked UI]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v0.13.0_screenshot_tablet_10_main_chat.png "Tweaked UI. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v0.13.0_screenshot_tablet_10_main_chat.png)
 
 I hoped these changes would get KouChat accepted as a "tablet app" on Google Play, but I failed. The store still displays a warning that this is a "phone app" when visiting from a tablet. D'oh! Tips are welcome!
 
@@ -24,6 +24,6 @@ The changelog:
 * Fixed issue that caused lines in the chat area with smileys to have extra padding.
 * Fixed several crash issues when rotating.
 * Messages are trimmed before added to the chat, to avoid blank lines.
-* Fixed bug where it was possible to remove KouChat notifications by swiping on some devices. 
+* Fixed bug where it was possible to remove KouChat notifications by swiping on some devices.
 
-Get it on Google Play, or download the apk from the downloads section. 
+Get it on Google Play, or download the apk from the downloads section.

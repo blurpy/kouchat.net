@@ -5,7 +5,7 @@ title: KouChat for Android v0.12.0 is out!
 
 New in this release is an optional wake lock. You can find it in the settings:
 
-[![Settings]({{ site.baseurl }}/images/screenshots/kouchat_android_v0.12.0_screenshot_tablet_10_settings.png "Settings. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/kouchat_android_v0.12.0_screenshot_tablet_10_settings.png)
+[![Settings]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v0.12.0_screenshot_tablet_10_settings.png "Settings. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v0.12.0_screenshot_tablet_10_settings.png)
 
 The effect of the wake lock is best described using a screenshot:
 

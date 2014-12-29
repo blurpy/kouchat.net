@@ -7,11 +7,11 @@ The big news this time is support for choosing text colors, and for setting the 
 
 You can set two colors. One for your own text. And one for the information messages, like away messages, topics and so on. I'm using the [HoloColorPicker](https://github.com/LarsWerkman/HoloColorPicker), which I think both looks good and works good. I've been looking for a color picker for a long time, and I finally found one I liked. I also added preview icons to the settings screen to make it easy to see which colors you have set at the moment.
 
-The topic can be set from the menu, and now displays on a second line in the action bar, instead of on the same line as your nick name. Which should give much more space to see the actual topic on phones. 
+The topic can be set from the menu, and now displays on a second line in the action bar, instead of on the same line as your nick name. Which should give much more space to see the actual topic on phones.
 
 <span class="twoImagesSideBySide">
-[![Set own message color]({{ site.baseurl }}/images/screenshots/kouchat_android_v0.14.0_screenshot_phone_settings_own_color.png "Set own message color. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/kouchat_android_v0.14.0_screenshot_phone_settings_own_color.png)
-[![Topic on second line]({{ site.baseurl }}/images/screenshots/kouchat_android_v0.14.0_screenshot_phone_main_chat.png "Topic on second line. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/kouchat_android_v0.14.0_screenshot_phone_main_chat.png)
+[![Set own message color]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v0.14.0_screenshot_phone_settings_own_color.png "Set own message color. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v0.14.0_screenshot_phone_settings_own_color.png)
+[![Topic on second line]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v0.14.0_screenshot_phone_main_chat.png "Topic on second line. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v0.14.0_screenshot_phone_main_chat.png)
 </span>
 
 I've also enabled a wifi lock. I've read about many users who experience network issues in apps without a wifi lock. My devices don't care about the wifi lock, but I'm enabling it just in case.
@@ -25,6 +25,6 @@ The changelog:
 * Added support for setting the topic.
 * Added high performance wifi lock.
 * Added color picker in the settings to choose own color and info color.
-* Fixed startup crash on Android 2.3.3, I hope. 
+* Fixed startup crash on Android 2.3.3, I hope.
 
-Get it on Google Play, or download the apk from the downloads section. 
+Get it on Google Play, or download the apk from the downloads section.

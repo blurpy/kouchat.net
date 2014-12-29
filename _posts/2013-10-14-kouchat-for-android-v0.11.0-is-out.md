@@ -5,7 +5,7 @@ title: KouChat for Android v0.11.0 is out!
 
 This release finally adds support for receiving files! You can now send and receive files between all your devices and computers using KouChat.
 
-[![Receive file]({{ site.baseurl }}/images/screenshots/kouchat_android_v0.11.0_screenshot_tablet_10_receive_file.png "Receive file. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/kouchat_android_v0.11.0_screenshot_tablet_10_receive_file.png)
+[![Receive file]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v0.11.0_screenshot_tablet_10_receive_file.png "Receive file. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v0.11.0_screenshot_tablet_10_receive_file.png)
 
 The file transfer work is not finished though. You still can't cancel an ongoing file transfer or monitor the progress from an Android device. That's for another release.
 
