@@ -3,6 +3,9 @@ layout: default
 title: Issues
 ---
 
-<h1>Issues</h1>
+# Issues
 
-Bugs and feature requests can be found on the KouChat [issue tracker](https://code.google.com/p/kouchat/issues/list) on Google Code.
+See GitHub for bugs and feature requests:
+
+* [KouChat for Desktop](https://github.com/blurpy/kouchat/issues)
+* [KouChat for Android](https://github.com/blurpy/kouchat-android/issues)

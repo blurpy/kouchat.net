@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-<h1>About</h1>
+# About
 
 KouChat is an open source, serverless, LAN chat application for desktop and Android.
 
@@ -11,7 +11,7 @@ With KouChat you can chat and send files to other KouChat users on the same loca
 
 It's written in Java, and is free software.
 
-<h1>Latest news</h1>
+# Latest news
 
 <ul>
   {% for post in site.posts limit:5 %}
@@ -21,7 +21,7 @@ It's written in Java, and is free software.
   {% endfor %}
 </ul>
 
-<h1>Features</h1>
+# Features
 
 * Group chat with all the connected users
 * Private chat with any user
@@ -37,9 +37,9 @@ It's written in Java, and is free software.
 * No configuration needed
 * Supported smileys: `:) :( :p :D ;) :O :@ :S ;( :$ 8)`
 
-<h1>How to install</h1>
+# How to install
 
-<h2>Windows/Linux/Mac OS X</h2>
+## Windows/Linux/Mac OS X
 
 * Make sure you have [Java 6](http://www.java.com/) or newer.
 * Download the KouChat binary (`kouchat-1.2.0.jar`) from the downloads section.
@@ -47,7 +47,7 @@ It's written in Java, and is free software.
 
 [![KouChat for desktop]({{ site.baseurl }}/images/screenshots/kouchat_v1.2.0_main_chat_opensuse_nimbus.png "KouChat for desktop. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/kouchat_v1.2.0_main_chat_opensuse_nimbus.png)
 
-<h2>Android</h2>
+## Android
 
 * Make sure you have Android v2.3.3 or newer.
 * Install KouChat from Google Play or Yandex.Store.

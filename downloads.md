@@ -3,7 +3,7 @@ layout: default
 title: Downloads
 ---
 
-<h1>Downloads</h1>
+# Downloads
 
 <a href="https://github.com/blurpy/kouchat/releases/download/kouchat-1.2.0/kouchat-1.2.0.jar" class="download button">
   <small>Download</small>
@@ -14,7 +14,7 @@ title: Downloads
   for Android
 </a>
 
-<h2>Source code and older downloads</h2>
+## Source code and older downloads
 
-* [KouChat](https://github.com/blurpy/kouchat/releases)
+* [KouChat for Desktop](https://github.com/blurpy/kouchat/releases)
 * [KouChat for Android](https://github.com/blurpy/kouchat-android/releases)
