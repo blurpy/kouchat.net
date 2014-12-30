@@ -235,18 +235,25 @@ hr {
 }
 
 table {
-  width: 100%;
   border: 1px solid #ebebeb;
+  margin-bottom: 15px;
 }
 
 th {
-  font-weight: 500;
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 4px 7px;
+  font-weight: bold;
+  background-color: #ebebeb;
 }
 
 td {
-  border: 1px solid #ebebeb;
-  text-align: center;
-  font-weight: 300;
+  border: 1px solid #dddddd;
+  padding: 4px 7px;
+}
+
+td img {
+  vertical-align: middle;
 }
 
 form {
