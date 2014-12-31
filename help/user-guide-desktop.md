@@ -8,19 +8,19 @@ title: User guide for Desktop
 This is the user guide for the Desktop version of KouChat. The Desktop version runs on Windows, Linux and Mac OS X.
 
 
-## Main Chat
+## Main chat
 
 The main chat is a public chat containing all the users on the network. It looks like this:
 
 [![Main Chat]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_main_chat_opensuse_nimbus.png "Main Chat. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_main_chat_opensuse_nimbus.png)
 
 
-### Chat Area
+### Chat area
 
 The big text area displays information messages and chat messages. Information messages are prefixed with `***`. Chat messages are prefixed with the nick name of the user who sent the message.
 
 
-### User List
+### User list
 
 The text area on the right is the user list. It contains all the currently online users.
 
@@ -32,7 +32,7 @@ Bold font | This is you.
 Normal font | Other users.
 Gray text | User is away.
 Star (*) after the nick name | User is currently writing.
-Envelope icon | User has sent you a private message.
+![Envelope icon]({{ site.baseurl }}/images/icons/envelope.png) | User has sent you a private message.
 
 If you right click on a user in the user list, you will get the following menu items:
 
@@ -55,19 +55,27 @@ Topic | Opens a popup displaying the current topic, with the option of changing 
 Minimize | Minimizes KouChat to the system tray, if the system has a system tray. Otherwise, it's minimized to the taskbar.
 
 
-### Message Field
+### Input field
 
-Everyone can send a message to the main chat. Type a message in the lower text field, and press the Enter/Return key to send.
+Everyone can send a message to the main chat, as long as they are not away. Type a message in the lower input field, and press the Enter/Return key to send.
+
+This input field receives key strokes even when it's missing focus. As long as the main chat window has focus you can start typing and the text will be appended to the input field.
+
+Use the up and down arrow keys to navigate through the history of messages and commands you have written. Use the Tab key to auto complete nick names and commands.
 
 
-### Menu Items
+### Menu items
+
+TODO
 
 
-## Private Chat
+## Private chat
 
 TODO
 
 [![Private Chat]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_private_chat_opensuse_nimbus.png "Private Chat. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_private_chat_opensuse_nimbus.png)
+
+If a user has sent an unread message, and logs off, the window will open minimized to the taskbar, so you can see the message.
 
 
 ## Away mode
@@ -87,16 +95,27 @@ TODO
 [![Settings]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_settings_opensuse_nimbus.png "Settings. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_settings_opensuse_nimbus.png)
 
 
-## File Transfers
+## File transfers
 
 TODO
 
 [![File Transfer]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_file_transfer_opensuse_nimbus.png "File Transfer. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_file_transfer_opensuse_nimbus.png)
 
 
-## System Tray
+## System tray
 
-TODO
+There are 4 different icons used in the system tray to indicate chat status:
+
+Icon | Description
+-----|------------
+![Normal icon]({{ site.baseurl }}/images/icons/kou_normal_32x32.png) | You are not away, and there is no activity in the chat.
+![Normal with activity icon]({{ site.baseurl }}/images/icons/kou_normal_activity_32x32.png) | You are not away, and there is unseen activity in the chat.
+![Away icon]({{ site.baseurl }}/images/icons/kou_away_32x32.png) | You are away, and there is no activity in the chat.
+![Away with activity icon]({{ site.baseurl }}/images/icons/kou_away_activity_32x32.png) | You are away, and there is unseen activity in the chat.
+
+The icons change based on both the main chat and private chat activity.
+
+Left clicking on the icon in the system tray shows and hides the main chat window. You can right click to get a menu. The menu allows you to quit KouChat.
 
 
 ## Smileys
@@ -145,6 +164,30 @@ Command | Description
 Note: `<id>` is the number after the `#` in the info messages shown in the main chat when sending or receiving files.
 
 
-## Startup Arguments
+## Startup arguments
 
-TODO
+These are arguments sent to KouChat on startup like this:
+
+`java -jar kouchat-x.x.x.jar <argument>`
+
+Replace `<argument>` with either the short or the full argument from the table below. Use from the command line or in shortcuts.
+
+Short | Full | Description
+------|------|------------
+`-c` | `--console` | Starts KouChat in console mode. See the [user guide for console](user-guide-console.html) for more details.
+ | `--minimized` | Starts KouChat minimized to the system tray, or the taskbar if the system tray is missing. Useful when starting KouChat automatically on boot. *New in 1.3.0*
+`-d` | `--debug` | Starts KouChat with verbose debug output enabled. The output is visible in the console.
+`-h` | `--help` | Lists all commands with a short description of them.
+`-v` | `--version` | Shows version information.
+ | `--no-private-chat` | Disables the support for private chat in this client.
+ | `--always-log` | Activates logging of both main chat and private chats, with no option to turn it off in the Settings.
+ | `--log-location=<value>` | Location to store chat log files, to override the default location. Replace `<value>` with the chosen path.
+
+### Log location
+
+Remember to use quotes if the path contains spaces, and use double backslash at the end of Windows paths.
+
+Examples:
+
+  * Windows: `--log-location="C:\Users\Username\KouChat logs\\"`
+  * Linux: `--log-location="/home/username/KouChat logs/"`
