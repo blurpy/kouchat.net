@@ -28,3 +28,23 @@ code {
   border: solid 1px #dbe7f3;
   padding: 0 3px;
 }
+
+table {
+  margin-bottom: 15px;
+}
+
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 4px 7px;
+  font-weight: bold;
+}
+
+td {
+  border: 1px solid #dddddd;
+  padding: 4px 7px;
+}
+
+td img {
+  vertical-align: middle;
+}
