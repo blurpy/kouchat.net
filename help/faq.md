@@ -185,3 +185,12 @@ Add the startup argument '`--minimized`' to the shortcut or script that starts K
 
 Put the shortcut or script in the startup/autostart folder of your operating
 system to run automatically on boot.
+
+
+## 22. KouChat stopped connecting after upgrading to Java 7u71. How can I fix it?
+
+This is a new bug in Java 7u71 that appears when IPv6 is disabled. Details on the bug can be read here: [JDK-6458027](https://bugs.openjdk.java.net/browse/JDK-6458027)
+
+If you can't enable IPv6 then you can tell Java to prefer IPv4 as a workaround. Add '`-Djava.net.preferIPv4Stack=true`' to the shortcut command when starting KouChat, like this:
+
+`java -Djava.net.preferIPv4Stack=true -jar kouchat-x.x.x.jar`
