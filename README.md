@@ -1,7 +1,7 @@
 KouChat home page
 =======
 
-Here are the sources for the kouchat.net home page,
+Here are the sources for the www.kouchat.net home page,
 served using GitHub Pages and Jekyll.
 
 See https://help.github.com/articles/using-jekyll-with-pages/ for usage.
