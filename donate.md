@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /donate/
 title: Donate using PayPal
 ---
 

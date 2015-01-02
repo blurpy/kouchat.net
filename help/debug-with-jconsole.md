@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /help/debug-with-jconsole/
 title: Debug network issues with JConsole
 ---
 

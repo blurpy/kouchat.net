@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /help/tips-and-tricks/
 title: Tips And Tricks
 ---
 

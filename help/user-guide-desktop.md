@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /help/user-guide/desktop/
 title: User guide for Desktop
 ---
 
@@ -174,7 +175,7 @@ Replace `<argument>` with either the short or the full argument from the table b
 
 Short | Full | Description
 ------|------|------------
-`-c` | `--console` | Starts KouChat in console mode. See the [user guide for console](user-guide-console.html) for more details.
+`-c` | `--console` | Starts KouChat in console mode. See the [user guide for console](../console/) for more details.
  | `--minimized` | Starts KouChat minimized to the system tray, or the taskbar if the system tray is missing. Useful when starting KouChat automatically on boot. *New in 1.3.0*
 `-d` | `--debug` | Starts KouChat with verbose debug output enabled. The output is visible in the console.
 `-h` | `--help` | Lists all commands with a short description of them.

@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /help/faq/
 title: Frequently Asked Questions
 ---
 

@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /help/user-guide/android/
 title: User guide for Android
 ---
 

@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /help/user-guide/console/
 title: User guide for Console
 ---
 

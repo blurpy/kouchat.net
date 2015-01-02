@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /issues/
 title: Issues
 ---
 
