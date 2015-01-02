@@ -9,9 +9,9 @@ This new site is built using [Jekyll](http://jekyllrb.com/), and hosted on [GitH
 
 I built the layout on a standard theme, called the Architect theme, which I could pick on GitHub Pages. It's fully responsive, which means it adapts the layout to different sizes, and works nicely on phones and tablets.
 
-I'm also working on improving the documentation of KouChat by creating user guides. Still work in progress right now, but I hope they will help users get the most out of KouChat.
+I'm also working on improving the documentation of KouChat by creating user guides. Still work in progress right now, but I hope they will help users get the most out of KouChat. You can have a look by navigating to the help section.
 
-Everything is open source of course. Head over to <https://github.com/blurpy/kouchat.net> if you want to see how this site works.
+Everything is open source of course. Head over to [the repository](https://github.com/blurpy/kouchat.net) if you want to see how this site works.
 
 The previous home page at <http://kouchat.googlecode.com> will no longer be updated. It used to host source code, downloads, issues and the wiki. The source code and downloads are already on GitHub, and the issues will be migrated to GitHub soon. The contents of the wiki is now an integrated part of this site.
 
