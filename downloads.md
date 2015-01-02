@@ -6,11 +6,11 @@ title: Downloads
 
 # Downloads
 
-<a href="https://github.com/blurpy/kouchat/releases/download/kouchat-1.2.0/kouchat-1.2.0.jar" class="download button">
+<a href="{{ site.latest_download_kouchat_desktop }}" class="download button">
   <small>Download</small>
   for Desktop
 </a>
-<a href="https://github.com/blurpy/kouchat-android/releases/download/kouchat-android-1.0.2/kouchat-android-1.0.2.apk" class="download button">
+<a href="{{ site.latest_download_kouchat_android }}" class="download button">
   <small>Download</small>
   for Android
 </a>
