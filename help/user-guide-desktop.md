@@ -57,6 +57,8 @@ Away | If currently not away: opens a popup asking for an away message. <br>If c
 Topic | Opens a popup displaying the current topic, with the option of changing it. If the topic is set as empty, it will be removed.
 Minimize | Minimizes KouChat to the system tray, if the system has a system tray. Otherwise, it's minimized to the taskbar.
 
+Hover the mouse over the buttons for tooltips.
+
 
 ### Input field
 
@@ -150,14 +152,43 @@ TODO
 
 [![Settings]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_settings_opensuse_nimbus.png "Settings. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_settings_opensuse_nimbus.png)
 
-Hover mouse for tooltips.
+Hover mouse for tooltips. Settings file location.
 
 
 ## File transfers
 
-TODO
 
-[![File Transfer]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_file_transfer_opensuse_nimbus.png "File Transfer. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_file_transfer_opensuse_nimbus.png)
+### Send file
+
+There are three ways to send a file to a user:
+
+* Right click on the user in the user list and choose Send file.
+* Drag and drop a file on the user in the user list.
+* Drag and drop a file in the chat area of a private chat window with the user.
+
+In all cases, you get an open file dialog:
+
+[![Select file to send]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_file_transfer_send_choose_file_popup.png "Select file to send. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_file_transfer_send_choose_file_popup.png)
+
+If you used the right click option you have to navigate to, and select the file to send. If you used the drag and drop options, then the file is preselected in the dialog, and you just have to confirm with the Open button. Press the Cancel button to abort the process.
+
+If you choose to send the file, you will get a new file transfer dialog, to monitor the progress, and to cancel the file transfer.
+
+[![Sending file in progress]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_file_transfer_send_dialog.png "Sending file in progress. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_file_transfer_send_dialog.png)
+
+The transfer will not start until the other user has accepted the file.
+
+### Receive file
+
+When someone sends a file to you, you will get a popup like this:
+
+[![Receive file popup]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_file_transfer_receive_popup.png "Receive file popup. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_file_transfer_receive_popup.png)
+
+You can choose to receive the file or not. If you click Yes then you will get a file save dialog where you can choose where to save the file. If you choose to receive the file, you will get a new file transfer dialog, to monitor the progress, and to cancel the file transfer.
+
+[![Receiving file in progress]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_file_transfer_opensuse_nimbus.png "Receiving file in progress. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_file_transfer_opensuse_nimbus.png)
+
+The transfer should start immediately. When the file has been received successfully then the button for Open folder is enabled. Click this button if you want to open a file manager at the location where the file was saved.
 
 
 ## System tray
