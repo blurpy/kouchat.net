@@ -20,6 +20,8 @@ The main chat is a public chat containing all the users on the network. It looks
 
 The big text area displays information messages and chat messages. Information messages are prefixed with `***`. Chat messages are prefixed with the nick name of the user who sent the message.
 
+Any links written are underlined and clickable.
+
 
 ### User list
 
@@ -29,9 +31,9 @@ Icons and text style used on the user says something about the status of the use
 
 Style | Description
 -----------|------------
-Bold font | This is you.
+**Bold font** | This is you.
 Normal font | Other users.
-Gray text | User is away.
+<span style="color: #848484;">Gray text</span> | User is away.
 Star (*) after the nick name | User is currently writing.
 ![Envelope icon]({{ site.baseurl }}/images/icons/envelope.png) | User has sent you a private message.
 
@@ -65,9 +67,56 @@ This input field receives key strokes even when it's missing focus. As long as t
 Use the up and down arrow keys to navigate through the history of messages and commands you have written. Use the Tab key to auto complete nick names and commands.
 
 
-### Menu items
+### Menu bar
 
-TODO
+These are the menu items in the menu bar at the top. All the menu items have keyboard shortcuts.
+
+
+### File menu
+
+Menu item | Description
+----------|------------
+Minimize | Minimizes KouChat to the system tray, if the system has a system tray. Otherwise, it's minimized to the taskbar.
+Quit | Quit from the chat, and shutdown the application.
+
+
+### Tools menu
+
+Menu item | Description
+----------|------------
+Clear chat | Clears all the text in the main chat.
+Set away | If currently not away: opens a popup asking for an away message. <br>If currently away: opens a popup asking if you want to come back from away.
+Change topic | Opens a popup displaying the current topic, with the option of changing it. If the topic is set as empty, it will be removed.
+Settings | Opens the Settings.
+
+
+### Help menu
+
+Menu item | Description
+----------|------------
+FAQ | Opens frequently asked questions about KouChat in a new window.
+Tips & tricks | Opens tips and tricks for KouChat in a new window.
+License | Opens the license terms for using and distributing KouChat in a new window.
+Commands | Prints all available commands in the main chat, with a short description. Same as the `/help` command.
+About | Opens a popup with contact details and other quick information about KouChat.
+
+
+## Keyboard shortcuts
+
+This is a list of the single key shortcuts KouChat supports.
+
+Key | Description
+----|------------
+Escape | Minimizes KouChat.
+Tab | Auto complete nick names and commands. Start writing the first character(s) and press tab to complete the rest. Press tab several times to cycle through if several matches.
+Up/Down | Press the up and down arrow keys to cycle through previous messages or commands you have written in the chat.
+F1 | Opens the FAQ.
+F2 | Opens the away popup.
+F3 | Opens the topic popup.
+F4 | Opens the Settings
+
+The function key shortcuts only work in the main chat, while the others also work in the private chat.
+
 
 
 ## Private chat
@@ -95,6 +144,8 @@ TODO
 
 [![Settings]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_settings_opensuse_nimbus.png "Settings. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_settings_opensuse_nimbus.png)
 
+Hover mouse for tooltips.
+
 
 ## File transfers
 
@@ -104,6 +155,9 @@ TODO
 
 
 ## System tray
+
+
+### Icons
 
 There are 4 different icons used in the system tray to indicate chat status:
 
@@ -117,6 +171,13 @@ Icon | Description
 The icons change based on both the main chat and private chat activity.
 
 Left clicking on the icon in the system tray shows and hides the main chat window. You can right click to get a menu. The menu allows you to quit KouChat.
+
+
+### Balloons
+
+If you activate balloons in the Settings you will get these popup balloons in the system tray when a message is received in the main chat or a private chat.
+
+![System tray balloons]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_systray_balloon.png)
 
 
 ## Smileys
@@ -152,7 +213,7 @@ Command | Description
 `/help` | Show help message for all commands.
 `/msg <nick> <msg>` | Send a private message to a user with the specified nick name.
 `/nick <new nick>` | Changes your nick name to the specified new nick name.
-`/quit` | Quit from the chat.
+`/quit` | Quit from the chat, and shutdown the application.
 `/receive <nick> <id>` | Accept a file transfer request from a user with the specified nick name and file transfer id.
 `/reject <nick> <id>` | Reject a file transfer request from a user with the specified nick name and file transfer id.
 `/send <nick> <file>` | Send a file with the specified file path to a user with the specified nick name.
