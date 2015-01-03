@@ -132,10 +132,16 @@ If a user has sent an unread message, and logs off, the window will open minimiz
 
 TODO
 
+[![Going away]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_away_popup.png "Going away. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_away_popup.png)
+
+[![Coming back from away]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_back_popup.png "Coming back from away. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_back_popup.png)
+
 
 ## Topic
 
 TODO
+
+[![Setting topic]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_topic_popup.png "Setting topic. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_topic_popup.png)
 
 
 ## Settings
