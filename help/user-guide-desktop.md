@@ -120,7 +120,6 @@ F4 | Opens the Settings
 The function key shortcuts only work in the main chat, while the others also work in the private chat.
 
 
-
 ## Private chat
 
 You can start a private chat with a user if you do not want everyone to see the conversation.
@@ -173,7 +172,7 @@ You can use away mode to say that you do not wish to be disturbed. When you go a
 * Your nick name in the user list turns gray.
 * Your away status and away message is listed in the user information popup.
 
-There are several ways to go away, described in this guide. When you choose to go away, you will get a popup asking for an away message:
+There are several ways to go away described in this guide. When you choose to go away, you will get a popup asking for an away message:
 
 [![Going away]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_away_popup.png "Going away. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_away_popup.png)
 
@@ -188,9 +187,13 @@ After you click Yes you are back to normal mode.
 
 ## Topic
 
-TODO
+You can set a topic in the main chat that all users, including users joining later, will see. The topic is shown in the titlebar of the main chat window.
 
-[![Setting topic]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_topic_popup.png "Setting topic. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_topic_popup.png)
+There are several ways to set the topic described in this guide. When you choose to set a topic, you will get a popup like this:
+
+[![Setting the topic]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_topic_popup.png "Setting the topic. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_topic_popup.png)
+
+The popup will initially show the current topic. Change it and click OK to set the new topic of the chat. Blank the field to remove the topic of the chat.
 
 
 ## Settings
