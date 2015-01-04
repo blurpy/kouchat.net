@@ -74,7 +74,7 @@ Use the up and down arrow keys to navigate through the history of messages and c
 These are the menu items in the menu bar at the top. All the menu items have keyboard shortcuts.
 
 
-### File menu
+#### File menu
 
 Menu item | Description
 ----------|------------
@@ -82,7 +82,7 @@ Minimize | Minimizes KouChat to the system tray, if the system has a system tray
 Quit | Quit from the chat, and shutdown the application.
 
 
-### Tools menu
+#### Tools menu
 
 Menu item | Description
 ----------|------------
@@ -92,7 +92,7 @@ Change topic | Opens a popup displaying the current topic, with the option of ch
 Settings | Opens the Settings.
 
 
-### Help menu
+#### Help menu
 
 Menu item | Description
 ----------|------------
@@ -123,20 +123,67 @@ The function key shortcuts only work in the main chat, while the others also wor
 
 ## Private chat
 
-TODO
+You can start a private chat with a user if you do not want everyone to see the conversation.
+
+There are 2 ways to start a private chat:
+
+* Right click on the user in the user list and choose Private chat.
+* Double click on the user in the user list.
+
+You will get a dialog like this:
 
 [![Private Chat]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_private_chat_opensuse_nimbus.png "Private Chat. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_private_chat_opensuse_nimbus.png)
 
-If a user has sent an unread message, and logs off, the window will open minimized to the taskbar, so you can see the message.
+The chat area and input field works just like the main chat, except that the private chat does not support commands.
+
+Note: if a user has sent an unread message, and logs off, a private chat window will open minimized to the taskbar, so you can see the message.
+
+
+### Menu bar
+
+These are the menu items in the menu bar at the top of the private chat window. All the menu items have keyboard shortcuts.
+
+
+#### File menu
+
+Menu item | Description
+----------|------------
+Close | Closes the private chat window.
+
+
+#### Tools menu
+
+Menu item | Description
+----------|------------
+Clear chat | Clears all the text in the private chat.
 
 
 ## Away mode
 
-TODO
+You can use away mode to say that you do not wish to be disturbed. When you go away:
+
+* Sound is disabled.
+* Balloons in the system tray are disabled.
+* You can not send or receive files.
+* You can not change the topic.
+* You can not change Settings.
+* You can not send any messages to the main chat.
+* You can not send or receive private chat messages.
+* You can not execute any commands.
+* Your nick name in the user list turns gray.
+* Your away status and away message is listed in the user information popup.
+
+There are several ways to go away, described in this guide. When you choose to go away, you will get a popup asking for an away message:
 
 [![Going away]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_away_popup.png "Going away. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_away_popup.png)
 
+The away message can't be empty. After you click OK you are in away mode.
+
+To return from away mode you use any of the methods to go away, but instead of a popup asking for an away message, you get a popup asking if you want to come back from away:
+
 [![Coming back from away]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_back_popup.png "Coming back from away. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_back_popup.png)
+
+After you click Yes you are back to normal mode.
 
 
 ## Topic
@@ -208,6 +255,8 @@ Icon | Description
 The icons change based on both the main chat and private chat activity.
 
 Left clicking on the icon in the system tray shows and hides the main chat window. You can right click to get a menu. The menu allows you to quit KouChat.
+
+These icons are also used in the taskbar when KouChat is not minimized to the system tray.
 
 
 ### Balloons
