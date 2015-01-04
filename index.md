@@ -5,11 +5,11 @@ title: Home
 
 # About
 
-KouChat is an open source, serverless, LAN chat application for desktop and Android.
+KouChat is an open source, serverless, LAN chat application for the desktop and Android.
 
 With KouChat you can chat and send files to other KouChat users on the same local area network. It's intended to be used on your network at home, the coffee shop, work place or similar, and does not require any setup, Internet connection or servers to function.
 
-It's written in Java, and is free software.
+It's written in Java, and is [free software](https://www.gnu.org/licenses/lgpl-3.0.html).
 
 # Latest news
 
@@ -23,19 +23,20 @@ It's written in Java, and is free software.
 
 # Features
 
-* Group chat with all the connected users
-* Private chat with any user
-* Choose your own nick name
-* Set the topic of the group chat
-* System tray / notification area support
-* See who is currently writing
-* Send and receive files
-* Use away mode when you don't want to be disturbed
-* Choose the color to use for your own messages, and info messages
-* Logging
-* Console mode
-* No configuration needed
-* Supported smileys: `:) :( :p :D ;) :O :@ :S ;( :$ 8)`
+* Group chat with all the connected users.
+* Private chat with any user.
+* Choose your own nick name.
+* Set the topic of the group chat.
+* System tray / notification area support.
+* See who is currently writing.
+* Send and receive files.
+* Use away mode when you don't want to be disturbed.
+* Choose the color to use for your own messages and info messages.
+* Chat logging.
+* Console mode.
+* Smileys.
+* Send messages in any language supported by Unicode.
+* No configuration needed.
 
 # How to install
 
