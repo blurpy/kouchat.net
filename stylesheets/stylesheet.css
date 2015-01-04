@@ -313,6 +313,8 @@ form {
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 15px;
   font-weight: bold;
+  margin-top: 24px;
+  margin-bottom: 8px;
   color: #474747;
 }
 
@@ -320,7 +322,7 @@ h4:before {
   content: "////";
   color: #9ddcff;
   padding-right: 0.3em;
-  margin-left: -2.8em;
+  margin-left: -2.4em;
 }
 
 #main-content h5 {
