@@ -208,8 +208,8 @@ Setting | Default value | Description
 --------|---------------|------------
 Nick | User name from operating system. | The unique name that identifies you in the chat. A nick name can have between 1 and 10 characters. Legal characters are: `a-z`, `0-9`, `-` and `_`.
 Browser | \<empty\> | When you click on a link in the chat it will open in the browser defined here. If this field is empty the default browser on your system will be used, if possible. Click the Choose button to select the location of the browser executable on the file system, or just enter the name of the browser executable directly if it's on the path. Click the Test button to see if the browser is configured correctly.
-Own text color | RGB: #0C0C42 | The color used when you are sending messages. Use the Change button to select a different color.
-System text color | RGB: #004700 | The color used for information messages from the application. Use the Change button to select a different color.
+Own text color | RGB: <span style="color: #0C0C42;">#0C0C42</span> | The color used when you are sending messages. Use the Change button to select a different color.
+System text color | RGB: <span style="color: #004700;">#004700</span> | The color used for information messages from the application. Use the Change button to select a different color.
 Look and feel | System dependent | Allows you to select the look and feel (theme) to use for the user interface. Note that KouChat needs to be restarted for the changes to take effect.
 Enable sound | On | A short sound notification is played when a new message is received if KouChat is out of focus, and when asked to receive a file.
 Enable smileys | On | Replaces text smileys in the chat with smiley images. See own topic further down for a list.
