@@ -198,11 +198,37 @@ The popup will initially show the current topic. Change it and click OK to set t
 
 ## Settings
 
-TODO
+Use the Settings to tweak certain aspects of KouChat.
 
 [![Settings]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_settings_opensuse_nimbus.png "Settings. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_settings_opensuse_nimbus.png)
 
-Hover mouse for tooltips. Settings file location.
+Hover the mouse over the options for tooltips. Here is a more detailed description:
+
+Setting | Default value | Description
+--------|---------------|------------
+Nick | User name from operating system. | The unique name that identifies you in the chat. A nick name can have between 1 and 10 characters. Legal characters are: `a-z`, `0-9`, `-` and `_`.
+Browser | \<empty\> | When you click on a link in the chat it will open in the browser defined here. If this field is empty the default browser on your system will be used, if possible. Click the Choose button to select the location of the browser executable on the file system, or just enter the name of the browser executable directly if it's on the path. Click the Test button to see if the browser is configured correctly.
+Own text color | RGB: #0C0C42 | The color used when you are sending messages. Use the Change button to select a different color.
+System text color | RGB: #004700 | The color used for information messages from the application. Use the Change button to select a different color.
+Look and feel | System dependent | Allows you to select the look and feel (theme) to use for the user interface. Note that KouChat needs to be restarted for the changes to take effect.
+Enable sound | On | A short sound notification is played when a new message is received if KouChat is out of focus, and when asked to receive a file.
+Enable smileys | On | Replaces text smileys in the chat with smiley images. See own topic further down for a list.
+Enable logging | Off | Stores the conversations in the main chat and private chats to log files. Only text written after the option was enabled will be stored. This may be permanently enabled using a startup argument.
+Enable balloons | Off | Shows balloon notifications in the system tray when new messages are received while KouChat is hidden. See own topic further down.
+Network interface | Auto | Allows you to select the network interface KouChat should use for sending and receiving messages. Select Auto to let KouChat choose. Hover the mouse over the different options in the dropdown to get tooltips with more details about a network interface, if available.
+
+
+### Storage
+
+KouChat uses a folder called `.kouchat` for storage, located in your home folder. Settings are stored in `kouchat.ini`, while logs are stored in its own `logs` folder, unless the log folder is overridden by a startup argument.
+
+Example locations:
+
+Operating System | Location
+-----------------|---------
+Windows XP | `C:\Documents and Settings\Username\.kouchat\`
+Windows 7 | `C:\Users\Username\.kouchat\`
+Linux | `/home/username/.kouchat/`
 
 
 ## File transfers
@@ -338,7 +364,9 @@ Short | Full | Description
 
 Remember to use quotes if the path contains spaces, and use double backslash at the end of Windows paths.
 
-Examples:
+Example arguments:
 
-  * Windows: `--log-location="C:\Users\Username\KouChat logs\\"`
-  * Linux: `--log-location="/home/username/KouChat logs/"`
+Operating System | Argument
+-----------------|---------
+Windows | `--log-location="C:\logs\KouChat logs\\"`
+Linux | `--log-location="/logs/KouChat logs/"`
