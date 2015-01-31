@@ -171,32 +171,41 @@ You can choose to receive the file or not. If you click Yes then you will get a 
 The transfer should start immediately. When the file has been received successfully then the button for Open folder is enabled. Click this button if you want to open a file manager at the location where the file was saved.
 
 
-## System tray
+## Notification area
+
+When you start KouChat, it will continue to run in the background until you use Quit from the menu. Just closing the app by using the back or home button will only hide the user interface. Same thing when Killing KouChat from the "switch app" screen.
+
+You can see when KouChat is running by looking for the icon in the notification area:
+
+[![KouChat icon in the notification area]({{ site.baseurl }}/images/screenshots/android/kouchat_android_notification_area.png "KouChat icon in the notification area. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_notification_area.png)
+
+Besides showing that KouChat is running, the notification area is used for two purposes:
+
+* Notification of new messages
+* Notification of new file transfer requests
+
+See separate topic for more about file transfer notifications.
 
 
-### Icons
+### Message icons
 
-There are 4 different icons used in the system tray to indicate chat status:
+There are 2 different icons used in the notification area to indicate chat status:
 
 Icon | Description
 -----|------------
-![Normal icon]({{ site.baseurl }}/images/icons/kou_normal_32x32.png) | You are not away, and there is no activity in the chat.
-![Normal with activity icon]({{ site.baseurl }}/images/icons/kou_normal_activity_32x32.png) | You are not away, and there is unseen activity in the chat.
-![Away icon]({{ site.baseurl }}/images/icons/kou_away_32x32.png) | You are away, and there is no activity in the chat.
-![Away with activity icon]({{ site.baseurl }}/images/icons/kou_away_activity_32x32.png) | You are away, and there is unseen activity in the chat.
+![Normal icon]({{ site.baseurl }}/images/icons/kou_normal_32x32.png) | There is no activity in the chat.
+![Activity icon]({{ site.baseurl }}/images/icons/kou_normal_activity_32x32.png) | There is unseen activity in the chat.
 
 The icons change based on both the main chat and private chat activity.
 
-Left clicking on the icon in the system tray shows and hides the main chat window. You can right click to get a menu. The menu allows you to quit KouChat.
 
-These icons are also used in the taskbar when KouChat is not minimized to the system tray.
+### Drawer
 
+Pull down the notification drawer to see the current chat status:
 
-### Balloons
+[![KouChat icon in the notification drawer]({{ site.baseurl }}/images/screenshots/android/kouchat_android_notification_drawer.png "KouChat icon in the notification drawer. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_notification_drawer.png)
 
-If you activate balloons in the Settings you will get these popup balloons in the system tray when a message is received in the main chat or a private chat.
-
-![System tray balloons]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_systray_balloon.png)
+If you click on the notification you will be taken to the main chat. This notification can not be removed as long as KouChat is running.
 
 
 ## Smileys
