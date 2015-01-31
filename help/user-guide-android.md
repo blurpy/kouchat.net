@@ -6,7 +6,7 @@ title: User guide for Android
 
 # User guide for Android
 
-This is the user guide for the Android version of KouChat. It runs on phones and tablets.
+This is the user guide for the Android version of KouChat. It runs on both phones and tablets.
 
 
 ## Main chat
@@ -123,6 +123,8 @@ Set own message color | RGB: <span style="color: #0C0C42;">#0C0C42</span> | The 
 Set info message color | RGB: <span style="color: #004700;">#004700</span> | The color used for information messages from the application. Use the Change button to select a different color.
 Enable wake lock | Off | Enable the wake lock to keep the device from sleeping while KouChat is running. Many devices go to sleep after some time being idle, and disables the network connection. Enabling the wake lock will keep the device from entering sleep. This uses more battery, but might keep the network enabled at all times. Not all devices support this option.
 
+Click on the icon in the top left corner to go back to the main chat, or use the back button.
+
 
 ## Notification area
 
@@ -139,7 +141,7 @@ Besides showing that KouChat is running, the notification area is used for two p
 * Notification of new messages
 * Notification of new file transfer requests
 
-See separate topic for more about file transfer notifications.
+See separate topic for more about file transfers.
 
 
 ### Message icons
