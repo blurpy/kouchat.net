@@ -71,28 +71,28 @@ The chat area and input field works just like the main chat. Click on the icon i
 
 You can use away mode to say that you do not wish to be disturbed. When you go away:
 
-* Sound is disabled.
-* Balloons in the system tray are disabled.
 * You can not send or receive files.
 * You can not change the topic.
-* You can not change Settings.
+* You can not change your nick name.
 * You can not send any messages to the main chat.
 * You can not send or receive private chat messages.
-* You can not execute any commands.
 * Your nick name in the user list turns gray.
-* Your away status and away message is listed in the user information popup.
 
-There are several ways to go away described in this guide. When you choose to go away, you will get a popup asking for an away message:
+When you click Away in the menu, you will get a popup asking for an away message:
 
-[![Going away]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_away_popup.png "Going away. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_away_popup.png)
+<span class="halfSizeImage">
+[![Going away]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.2-go_away_dialog.png "Going away. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.2-go_away_dialog.png)
+</span>
 
 The away message can't be empty. After you click OK you are in away mode.
 
-To return from away mode you use any of the methods to go away, but instead of a popup asking for an away message, you get a popup asking if you want to come back from away:
+To return from away mode you click on Away in the menu again, but instead of a popup asking for an away message, you get a popup asking if you want to come back from away:
 
-[![Coming back from away]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_back_popup.png "Coming back from away. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_back_popup.png)
+<span class="halfSizeImage">
+[![Coming back from away]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.2-back_from_away_dialog.png "Coming back from away. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.2-back_from_away_dialog.png)
+</span>
 
-After you click Yes you are back to normal mode.
+After you click OK you are back to normal mode.
 
 
 ## Topic
