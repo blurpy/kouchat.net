@@ -60,7 +60,7 @@ Quit | Quit from the chat, and shutdown the application.
 
 You can start a private chat with a user if you do not want everyone to see the conversation.
 
-Click on a user in the user list, and you will get a dialog like this:
+Click on a user in the user list, and you will get a window like this:
 
 [![Private Chat]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.0_screenshot_tablet_10_private_chat.png "Private Chat. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.0_screenshot_tablet_10_private_chat.png)
 
@@ -119,8 +119,8 @@ Here is a more detailed description:
 Setting | Default value | Description
 --------|---------------|------------
 Set nick name | NewUser | The unique name that identifies you in the chat. A nick name can have between 1 and 10 characters. Legal characters are: `a-z`, `0-9`, `-` and `_`.
-Set own message color | RGB: <span style="color: #0C0C42;">#0C0C42</span> | The color used when you are sending messages. Use the Change button to select a different color.
-Set info message color | RGB: <span style="color: #004700;">#004700</span> | The color used for information messages from the application. Use the Change button to select a different color.
+Set own message color | RGB: <span style="color: #0C0C42;">#0C0C42</span> | The color used when you are sending messages.
+Set info message color | RGB: <span style="color: #004700;">#004700</span> | The color used for information messages from the application.
 Enable wake lock | Off | Enable the wake lock to keep the device from sleeping while KouChat is running. Many devices go to sleep after some time being idle, and disables the network connection. Enabling the wake lock will keep the device from entering sleep. This uses more battery, but might keep the network enabled at all times. Not all devices support this option.
 
 Click on the icon in the top left corner to go back to the main chat, or use the back button.
@@ -172,13 +172,13 @@ If you click on the notification you will be taken to the main chat. This notifi
 
 ### Send file
 
-To send a file with KouChat you need to use the share functionality in Android:
+To send a file with KouChat you need to use the share functionality in Android. This examples uses the Gallery:
 
 <span class="halfSizeImage">
 [![Share file with KouChat]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.2-file_transfer_share.png "Share file with KouChat. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.2-file_transfer_share.png)
 </span>
 
-Select KouChat in the list of apps, and you will get another dialog where you can select which user to send the file to:
+Select KouChat in the list of apps, and you will get another popup where you can select which user to send the file to:
 
 <span class="halfSizeImage">
 [![Select user to send to]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.2-file_transfer_select_user.png "Select user to send to. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.2-file_transfer_select_user.png)
