@@ -97,11 +97,13 @@ After you click Yes you are back to normal mode.
 
 ## Topic
 
-You can set a topic in the main chat that all users, including users joining later, will see. The topic is shown in the titlebar of the main chat window.
+You can set a topic in the main chat that all users, including users joining later, will see. The topic is shown in the actionbar of the main chat.
 
-There are several ways to set the topic described in this guide. When you choose to set a topic, you will get a popup like this:
+When you click Topic in the menu, you will get a popup like this:
 
-[![Setting the topic]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_topic_popup.png "Setting the topic. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_topic_popup.png)
+<span class="halfSizeImage">
+[![Setting the topic]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.2-topic_dialog.png "Setting the topic. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.2-topic_dialog.png)
+</span>
 
 The popup will initially show the current topic. Change it and click OK to set the new topic of the chat. Blank the field to remove the topic of the chat.
 
@@ -124,7 +126,7 @@ Enable wake lock | Off | Enable the wake lock to keep the device from sleeping w
 
 ## Notification area
 
-When you start KouChat, it will continue to run in the background until you use Quit from the menu. Just closing the app by using the back or home button will only hide the user interface. Same thing when Killing KouChat from the "switch app" screen.
+When you start KouChat, it will continue to run in the background until you use Quit from the menu. Just closing the app by using the back or home button will only hide the user interface. Same thing when killing KouChat from the "switch app" screen.
 
 You can see when KouChat is running by looking for the icon in the notification area:
 

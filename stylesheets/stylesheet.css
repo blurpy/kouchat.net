@@ -553,6 +553,11 @@ footer small a:hover {
     width: 48%;
 }
 
+.halfSizeImage img {
+  max-width: 450px !important;
+  width: 100%;
+}
+
 #post-nav .prev {
   float: left;
 }
