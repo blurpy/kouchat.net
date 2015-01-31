@@ -122,19 +122,6 @@ Set info message color | RGB: <span style="color: #004700;">#004700</span> | The
 Enable wake lock | Off | Enable the wake lock to keep the device from sleeping while KouChat is running. Many devices go to sleep after some time being idle, and disables the network connection. Enabling the wake lock will keep the device from entering sleep. This uses more battery, but might keep the network enabled at all times. Not all devices support this option.
 
 
-### Storage
-
-KouChat uses a folder called `.kouchat` for storage, located in your home folder. Settings are stored in `kouchat.ini`, while logs are stored in its own `logs` folder, unless the log folder is overridden by a startup argument.
-
-Example locations:
-
-Operating System | Location
------------------|---------
-Windows XP | `C:\Documents and Settings\Username\.kouchat\`
-Windows 7 | `C:\Users\Username\.kouchat\`
-Linux | `/home/username/.kouchat/`
-
-
 ## File transfers
 
 
