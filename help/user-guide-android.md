@@ -172,23 +172,20 @@ If you click on the notification you will be taken to the main chat. This notifi
 
 ### Send file
 
-There are three ways to send a file to a user:
+To send a file with KouChat you need to use the share functionality in Android:
 
-* Right click on the user in the user list and choose Send file.
-* Drag and drop a file on the user in the user list.
-* Drag and drop a file in the chat area of a private chat window with the user.
+<span class="halfSizeImage">
+[![Share file with KouChat]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.2-file_transfer_share.png "Share file with KouChat. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.2-file_transfer_share.png)
+</span>
 
-In all cases, you get an open file dialog:
+Select KouChat in the list of apps, and you will get another dialog where you can select which user to send the file to:
 
-[![Select file to send]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_file_transfer_send_choose_file_popup.png "Select file to send. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_file_transfer_send_choose_file_popup.png)
+<span class="halfSizeImage">
+[![Select user to send to]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.2-file_transfer_select_user.png "Select user to send to. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.2-file_transfer_select_user.png)
+</span>
 
-If you used the right click option you have to navigate to, and select the file to send. If you used the drag and drop options, then the file is preselected in the dialog, and you just have to confirm with the Open button. Press the Cancel button to abort the process.
+The transfer will not start until the other user has accepted the file. Note that there is currently no way to monitor the progress or cancel the file transfer from KouChat for Android at the moment. The status will be printed in the main chat when the transfer is done though.
 
-If you choose to send the file, you will get a new file transfer dialog, to monitor the progress, and to cancel the file transfer.
-
-[![Sending file in progress]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_file_transfer_send_dialog.png "Sending file in progress. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_file_transfer_send_dialog.png)
-
-The transfer will not start until the other user has accepted the file.
 
 ### Receive file
 
