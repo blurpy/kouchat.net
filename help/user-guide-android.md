@@ -130,7 +130,9 @@ When you start KouChat, it will continue to run in the background until you use 
 
 You can see when KouChat is running by looking for the icon in the notification area:
 
+<span class="halfSizeImage">
 [![KouChat icon in the notification area]({{ site.baseurl }}/images/screenshots/android/kouchat_android_notification_area.png "KouChat icon in the notification area. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_notification_area.png)
+</span>
 
 Besides showing that KouChat is running, the notification area is used for two purposes:
 
@@ -156,7 +158,9 @@ The icons change based on both the main chat and private chat activity.
 
 Pull down the notification drawer to see the current chat status:
 
+<span class="halfSizeImage">
 [![KouChat icon in the notification drawer]({{ site.baseurl }}/images/screenshots/android/kouchat_android_notification_drawer.png "KouChat icon in the notification drawer. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_notification_drawer.png)
+</span>
 
 If you click on the notification you will be taken to the main chat. This notification can not be removed as long as KouChat is running.
 
