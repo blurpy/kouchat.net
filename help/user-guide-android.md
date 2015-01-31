@@ -184,20 +184,34 @@ Select KouChat in the list of apps, and you will get another dialog where you ca
 [![Select user to send to]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.2-file_transfer_select_user.png "Select user to send to. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.2-file_transfer_select_user.png)
 </span>
 
-The transfer will not start until the other user has accepted the file. Note that there is currently no way to monitor the progress or cancel the file transfer from KouChat for Android at the moment. The status will be printed in the main chat when the transfer is done though.
+The transfer will not start until the other user has accepted the file.
+
+Note that there is currently no way to monitor the progress or cancel the file transfer from KouChat for Android at the moment. The status will be printed in the main chat when the transfer is done though.
 
 
 ### Receive file
 
-When someone sends a file to you, you will get a popup like this:
+When someone sends a file to you, you will get a notification like this:
 
-[![Receive file popup]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_file_transfer_receive_popup.png "Receive file popup. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_file_transfer_receive_popup.png)
+<span class="halfSizeImage">
+[![Receive file notification]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.2-file_transfer_notification_message.png "Receive file notification. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.2-file_transfer_notification_message.png)
+</span>
 
-You can choose to receive the file or not. If you click Yes then you will get a file save dialog where you can choose where to save the file. If you choose to receive the file, you will get a new file transfer dialog, to monitor the progress, and to cancel the file transfer.
+Open the notification drawer to view details about the request:
 
-[![Receiving file in progress]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_file_transfer_opensuse_nimbus.png "Receiving file in progress. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_file_transfer_opensuse_nimbus.png)
+<span class="halfSizeImage">
+[![File transfer notification in the drawer]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.2-file_transfer_notification_drawer.png "File transfer notification in the drawer. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.2-file_transfer_notification_drawer.png)
+</span>
 
-The transfer should start immediately. When the file has been received successfully then the button for Open folder is enabled. Click this button if you want to open a file manager at the location where the file was saved.
+When you click on the notification you can choose to receive the file or not:
+
+<span class="halfSizeImage">
+[![Choose to receive the file]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.2-file_transfer_receive_dialog.png "Choose to receive the file. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.2-file_transfer_receive_dialog.png)
+</span>
+
+The transfer should start immediately if you click Accept. The file is saved to the standard download folder in Android.
+
+Note that there is currently no way to monitor the progress or cancel the file transfer from KouChat for Android at the moment. The status will be printed in the main chat when the transfer is done though.
 
 
 ## Smileys
