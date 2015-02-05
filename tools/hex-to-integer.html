@@ -1,0 +1,18 @@
+---
+layout: default
+permalink: /tools/hex-to-integer/
+title: Hex to integer
+---
+
+<script src="{{ site.baseurl }}/javascripts/hex-to-integer.js"></script>
+
+<h1>Hex to integer</h1>
+
+<p>This tool allows you to enter an html hex color code (like <code>#EFEFEF</code>), and get the integer representation that can be used in <code>kouchat.ini</code>.</p>
+
+<p>
+  <input type="text" id="hex-to-integer-input" placeholder="Enter hex value..."/>
+  <input type="button" value="Convert hex to integer" onclick="HexToInteger.convertHexToInteger('hex-to-integer-input', 'hex-to-integer-output');"/>
+</p>
+
+<p>Integer value: <span id="hex-to-integer-output">0</span></p>
