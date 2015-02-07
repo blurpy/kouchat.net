@@ -30,7 +30,7 @@ There is no user list visible at all times. Use the command `/users` to see a li
 
 ### Input field
 
-Everyone can send a message to the main chat, as long as they are not away. Type a message and press the Enter/Return key to send.
+Everyone can send a message to the main chat, as long as they are not away. Type a message or command and press the Enter/Return key to send.
 
 
 ## Private chat
@@ -49,7 +49,6 @@ You can use away mode to say that you do not wish to be disturbed. When you go a
 * You can not change your nick name.
 * You can not send any messages to the main chat.
 * You can not send or receive private chat messages.
-* You can not execute any commands.
 
 Use the command `/away` to go away. The away message can't be empty.
 
@@ -73,7 +72,7 @@ Setting | Default value | Description
 --------|---------------|------------
 nick | User name from operating system. | The unique name that identifies you in the chat. A nick name can have between 1 and 10 characters. Legal characters are: `a-z`, `0-9`, `-` and `_`. Use the command `/nick` to change.
 owncolor | <span style="color: #0C0C42;">-15987646</span> | The color used when you are sending messages. You can use the [hex to integer]({{ site.baseurl }}/tools/hex-to-integer/) page to find the correct value to use for a given color. Note that you will not see the color yourself.
-logging | false | Stores the conversations in the main chat and private chats to log files. This may be permanently enabled using a startup argument.
+logging | false | Stores the conversations in the main chat and private chats to log files, if the value is `true`. This may be permanently enabled using a startup argument.
 networkInterface | null | Allows you to select the network interface KouChat should use for sending and receiving messages. Use `null` to let KouChat choose, or use the short network interface name from `ifconfig` or `ipconfig /all`, like `eth0` or `wlan0`.
 
 
