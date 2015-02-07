@@ -6,7 +6,9 @@ title: User guide for Console
 
 # User guide for Console
 
-This is the user guide for the Console version of KouChat. It runs on Windows, Linux and Mac OS X.
+This is the user guide for the Console version of KouChat.
+
+It's part of KouChat for Desktop, and must be started with the `--console` startup argument for the console mode to be enabled.
 
 
 ## Main chat
@@ -23,7 +25,7 @@ The whole screen displays information messages and chat messages. Information me
 
 ### User list
 
-There is no user list visible at all times. Use the command `/users` to see a list.
+There is no user list visible at all times. Use the command `/users` to see a list of currently online users, and `/whois` to see details about a certain user.
 
 
 ### Input field
@@ -58,7 +60,7 @@ Use the command `/back` to return from away mode.
 
 You can set a topic in the main chat that all users, including users joining later, will see. The topic is shown when you log on.
 
-Use the command `/topic` to set or change the topic.
+Use the command `/topic` to see, set or change the topic.
 
 
 ## Settings
@@ -67,12 +69,12 @@ Use the Settings to tweak certain aspects of KouChat.
 
 Most settings have to be changed manually in `kouchat.ini`, and require a restart of KouChat before they take effect. See Storage for the location of this file. Here is a description of relevant settings for the console:
 
-Setting | Key | Default value | Description
---------|-----|---------------|------------
-Nick name | nick | User name from operating system. | The unique name that identifies you in the chat. A nick name can have between 1 and 10 characters. Legal characters are: `a-z`, `0-9`, `-` and `_`. Use the command `/nick` to change.
-Own text color | owncolor | <span style="color: #0C0C42;">-15987646</span> | The color used when you are sending messages. You can use the [hex to integer]({{ site.baseurl }}/tools/hex-to-integer/) page to find the correct value to use for a given color. Note that you will not see the color yourself.
-Enable logging | logging | false | Stores the conversations in the main chat and private chats to log files. This may be permanently enabled using a startup argument.
-Network interface | networkInterface | null | Allows you to select the network interface KouChat should use for sending and receiving messages. Use `null` to let KouChat choose, or use the short network interface name from `ifconfig` or `ipconfig /all`, like `eth0` or `wlan0`.
+Setting | Default value | Description
+--------|---------------|------------
+nick | User name from operating system. | The unique name that identifies you in the chat. A nick name can have between 1 and 10 characters. Legal characters are: `a-z`, `0-9`, `-` and `_`. Use the command `/nick` to change.
+owncolor | <span style="color: #0C0C42;">-15987646</span> | The color used when you are sending messages. You can use the [hex to integer]({{ site.baseurl }}/tools/hex-to-integer/) page to find the correct value to use for a given color. Note that you will not see the color yourself.
+logging | false | Stores the conversations in the main chat and private chats to log files. This may be permanently enabled using a startup argument.
+networkInterface | null | Allows you to select the network interface KouChat should use for sending and receiving messages. Use `null` to let KouChat choose, or use the short network interface name from `ifconfig` or `ipconfig /all`, like `eth0` or `wlan0`.
 
 
 ### Storage
@@ -117,14 +119,14 @@ When someone sends a file to you, you need to use the command `/receive` to star
 [13:03:29] *** Successfully received Brave_Trailer_HD.mp4 from Christian, and saved as Brave_Trailer_HD.mp4
 {% endhighlight %}
 
-The transfer should start immediately after deciding to receive, and it will be stored in your user home folder. If a file with the same name exists, the received file will be renamed automatically to avoid overwriting the existing file. Use the command `/cancel` during the file transfer to abort, and `/transfers` to see the progress.
+The transfer should start immediately after deciding to receive, and it will be stored in your home folder. If a file with the same name exists, the received file will be renamed automatically to avoid overwriting the existing file. Use the command `/cancel` during the file transfer to abort, and `/transfers` to see the progress.
 
-Note the usage of the parameter "2" in the `/receive` command, which corresponds with the file transfer id (#2) seen in the first information message.
+Note the usage of the parameter "2" in the `/receive` command, which corresponds with the file transfer id (#2) seen in the first information message. This id will increase by one for each send/receive file request.
 
 
 ## Commands
 
-Write these commands in the main chat. Use the Tab key for auto completion of commands and nick names.
+Write these commands in the main chat.
 
 Command | Description
 --------|------------
@@ -146,8 +148,6 @@ Command | Description
 `/whois <nick>` | Show information about a user with the specified nick name.
 `//<text>` | Send the specified text as a normal message, with a single slash in front. Useful when you need to send a command to the chat, instead of having the command executed.
 
-Note: `<id>` is the number after the `#` in the info messages shown in the main chat when sending or receiving files.
-
 
 ## Startup arguments
 
@@ -160,7 +160,6 @@ Replace `<argument>` with either the short or the full argument from the table b
 Short | Full | Description
 ------|------|------------
 `-c` | `--console` | Starts KouChat in the console mode this guide is for.
- | `--minimized` | Starts KouChat minimized to the system tray, or the taskbar if the system tray is missing. Useful when starting KouChat automatically on boot. *New in 1.3.0*
 `-d` | `--debug` | Starts KouChat with verbose debug output enabled. The output is visible in the console.
 `-h` | `--help` | Lists all commands with a short description of them.
 `-v` | `--version` | Shows version information.
