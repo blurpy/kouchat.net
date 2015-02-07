@@ -11,9 +11,9 @@ Need help with KouChat? Please have a look at the following pages.
 
 ## User Guides
 
-* [User Guide for Desktop]({{ site.baseurl }}/help/user-guide/desktop/)
-* [User Guide for Console]({{ site.baseurl }}/help/user-guide/console/)
-* [User Guide for Android]({{ site.baseurl }}/help/user-guide/android/)
+* [User Guide for Desktop]({{site.baseurl}}/{{site.user_guide_desktop}})
+* [User Guide for Console]({{site.baseurl}}/{{site.user_guide_console}})
+* [User Guide for Android]({{site.baseurl}}/{{site.user_guide_android}})
 
 
 ## General
