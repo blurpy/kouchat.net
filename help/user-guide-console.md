@@ -93,36 +93,33 @@ Linux | `/home/username/.kouchat/`
 
 ### Send file
 
-There are three ways to send a file to a user:
+Use the command `/send` to send a file to a user:
 
-* Right click on the user in the user list and choose Send file.
-* Drag and drop a file on the user in the user list.
-* Drag and drop a file in the chat area of a private chat window with the user.
+{% highlight bash %}
+/send christian /home/user/Brave_Trailer_HD.mp4
+[12:15:49] *** Trying to send the file Brave_Trailer_HD.mp4 (#1) [12.47MB] to Christian
+[12:15:59] *** Christian accepted sending of Brave_Trailer_HD.mp4
+[12:16:10] *** Brave_Trailer_HD.mp4 successfully sent to Christian
+{% endhighlight %}
 
-In all cases, you get an open file dialog:
-
-[![Select file to send]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_file_transfer_send_choose_file_popup.png "Select file to send. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_file_transfer_send_choose_file_popup.png)
-
-If you used the right click option you have to navigate to, and select the file to send. If you used the drag and drop options, then the file is preselected in the dialog, and you just have to confirm with the Open button. Press the Cancel button to abort the process.
-
-If you choose to send the file, you will get a new file transfer dialog, to monitor the progress, and to cancel the file transfer.
-
-[![Sending file in progress]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_file_transfer_send_dialog.png "Sending file in progress. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_file_transfer_send_dialog.png)
-
-The transfer will not start until the other user has accepted the file.
+The transfer will not start until the other user has accepted the file. Use the command `/cancel` during the file transfer to abort, and `/transfers` to see the progress.
 
 
 ### Receive file
 
-When someone sends a file to you, you will get a popup like this:
+When someone sends a file to you, you need to use the command `/receive` to start receiving the file, or `/reject` if you don't want to receive the file:
 
-[![Receive file popup]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_file_transfer_receive_popup.png "Receive file popup. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_file_transfer_receive_popup.png)
+{% highlight bash %}
+[13:01:33] *** Christian is trying to send the file Brave_Trailer_HD.mp4 (#2) [12.47MB]
+[13:01:33] *** /receive or /reject the file
+/receive Christian 2
+[13:03:28] *** Receiving Brave_Trailer_HD.mp4 from Christian
+[13:03:29] *** Successfully received Brave_Trailer_HD.mp4 from Christian, and saved as Brave_Trailer_HD.mp4
+{% endhighlight %}
 
-You can choose to receive the file or not. If you click Yes then you will get a file save dialog where you can choose where to save the file. If you choose to receive the file, you will get a new file transfer dialog, to monitor the progress, and to cancel the file transfer.
+The transfer should start immediately after deciding to receive, and it will be stored in your user home folder. If a file with the same name exists, the received file will be renamed automatically to avoid overwriting the existing file. Use the command `/cancel` during the file transfer to abort, and `/transfers` to see the progress.
 
-[![Receiving file in progress]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_file_transfer_opensuse_nimbus.png "Receiving file in progress. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_file_transfer_opensuse_nimbus.png)
-
-The transfer should start immediately. When the file has been received successfully then the button for Open folder is enabled. Click this button if you want to open a file manager at the location where the file was saved.
+Note the usage of the parameter "2" in the `/receive` command, which corresponds with the file transfer id (#2) seen in the first information message.
 
 
 ## Commands
