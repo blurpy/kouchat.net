@@ -111,6 +111,7 @@ If you choose to send the file, you will get a new file transfer dialog, to moni
 
 The transfer will not start until the other user has accepted the file.
 
+
 ### Receive file
 
 When someone sends a file to you, you will get a popup like this:
@@ -124,53 +125,6 @@ You can choose to receive the file or not. If you click Yes then you will get a 
 The transfer should start immediately. When the file has been received successfully then the button for Open folder is enabled. Click this button if you want to open a file manager at the location where the file was saved.
 
 
-## System tray
-
-
-### Icons
-
-There are 4 different icons used in the system tray to indicate chat status:
-
-Icon | Description
------|------------
-![Normal icon]({{ site.baseurl }}/images/icons/kou_normal_32x32.png) | You are not away, and there is no activity in the chat.
-![Normal with activity icon]({{ site.baseurl }}/images/icons/kou_normal_activity_32x32.png) | You are not away, and there is unseen activity in the chat.
-![Away icon]({{ site.baseurl }}/images/icons/kou_away_32x32.png) | You are away, and there is no activity in the chat.
-![Away with activity icon]({{ site.baseurl }}/images/icons/kou_away_activity_32x32.png) | You are away, and there is unseen activity in the chat.
-
-The icons change based on both the main chat and private chat activity.
-
-Left clicking on the icon in the system tray shows and hides the main chat window. You can right click to get a menu. The menu allows you to quit KouChat.
-
-These icons are also used in the taskbar when KouChat is not minimized to the system tray.
-
-
-### Balloons
-
-If you activate balloons in the Settings you will get these popup balloons in the system tray when a message is received in the main chat or a private chat.
-
-![System tray balloons]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_systray_balloon.png)
-
-
-## Smileys
-
-These smileys can be used in the main chat and the private chat.
-
-Code | Smiley
------|-------
-:) | ![:)]({{ site.baseurl }}/images/smileys/desktop/smile.png)
-:( | ![:(]({{ site.baseurl }}/images/smileys/desktop/sad.png)
-:p | ![:p]({{ site.baseurl }}/images/smileys/desktop/tongue.png)
-:D | ![:D]({{ site.baseurl }}/images/smileys/desktop/teeth.png)
-;) | ![;)]({{ site.baseurl }}/images/smileys/desktop/wink.png)
-:O | ![:O]({{ site.baseurl }}/images/smileys/desktop/omg.png)
-:@ | ![:@]({{ site.baseurl }}/images/smileys/desktop/angry.png)
-:S | ![:S]({{ site.baseurl }}/images/smileys/desktop/confused.png)
-;( | ![;(]({{ site.baseurl }}/images/smileys/desktop/cry.png)
-:$ | ![:$]({{ site.baseurl }}/images/smileys/desktop/embarrassed.png)
-8) | ![8)]({{ site.baseurl }}/images/smileys/desktop/shade.png)
-
-
 ## Commands
 
 Write these commands in the main chat. Use the Tab key for auto completion of commands and nick names.
@@ -181,7 +135,7 @@ Command | Description
 `/away <away message>` | Set status to away, with the specified away message.
 `/back` | Set status to back from away.
 `/cancel <nick> <id>` | Cancel an ongoing file transfer with a user with the specified nick name and file transfer id.
-`/clear` | Clear all the text from the chat.
+`/clear` | Clear all the text from the chat. This does not work in console mode.
 `/help` | Show help message for all commands.
 `/msg <nick> <msg>` | Send a private message to a user with the specified nick name.
 `/nick <new nick>` | Changes your nick name to the specified new nick name.
@@ -208,7 +162,7 @@ Replace `<argument>` with either the short or the full argument from the table b
 
 Short | Full | Description
 ------|------|------------
-`-c` | `--console` | Starts KouChat in console mode. See the [user guide for console](../console/) for more details.
+`-c` | `--console` | Starts KouChat in the console mode this guide is for.
  | `--minimized` | Starts KouChat minimized to the system tray, or the taskbar if the system tray is missing. Useful when starting KouChat automatically on boot. *New in 1.3.0*
 `-d` | `--debug` | Starts KouChat with verbose debug output enabled. The output is visible in the console.
 `-h` | `--help` | Lists all commands with a short description of them.
@@ -216,6 +170,7 @@ Short | Full | Description
  | `--no-private-chat` | Disables the support for private chat in this client.
  | `--always-log` | Activates logging of both main chat and private chats, with no option to turn it off in the Settings.
  | `--log-location=<value>` | Location to store chat log files, to override the default location. Replace `<value>` with the chosen path.
+
 
 ### Log location
 
