@@ -9,6 +9,11 @@ title: Help
 Need help with KouChat? Please have a look at the following pages.
 
 
+## Facebook
+
+* [KouChat on Facebook](https://www.facebook.com/kouchatapp/)
+
+
 ## User Guides
 
 * [User Guide for Desktop]({{site.baseurl}}/{{site.user_guide_desktop}})
