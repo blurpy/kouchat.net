@@ -50,10 +50,10 @@ It's written in Java, and is [free software](https://www.gnu.org/licenses/lgpl-3
 
 ## Android
 
-* Make sure you have Android v2.3.3 or newer.
-* Install KouChat from Google Play or Yandex.Store.
-* Alternatively: download the KouChat for Android package (`kouchat-android-1.0.2.apk`) from the downloads section, and install using a file manager or similar.
+* Make sure you have Android v4.1 or newer.
+* Install KouChat from Google Play.
+* Alternatively: download the KouChat for Android package (`kouchat-android-1.1.0.apk`) from the downloads section, and install using a file manager or similar.
 
 [![Google Play](http://www.android.com/images/brand/get_it_on_play_logo_large.png "Get KouChat on Google Play")](https://play.google.com/store/apps/details?id=net.usikkert.kouchat.android)
 
-[![KouChat for Android]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.0_screenshot_tablet_10_main_chat.png "KouChat for Android. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.0_screenshot_tablet_10_main_chat.png)
+[![KouChat for Android]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.1.0_screenshot_tablet_10_main_chat.png "KouChat for Android. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.1.0_screenshot_tablet_10_main_chat.png)
