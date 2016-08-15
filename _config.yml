@@ -1,7 +1,7 @@
 baseurl:
 permalink: "/news/:year/:month/:day/:title/"
 latest_download_kouchat_desktop: "https://github.com/blurpy/kouchat/releases/download/kouchat-1.2.0/kouchat-1.2.0.jar"
-latest_download_kouchat_android: "https://github.com/blurpy/kouchat-android/releases/download/kouchat-android-1.0.2/kouchat-android-1.0.2.apk"
+latest_download_kouchat_android: "https://github.com/blurpy/kouchat-android/releases/download/kouchat-android-1.1.0/kouchat-android-1.1.0.apk"
 user_guide_console: "help/user-guide/console"
 user_guide_desktop: "help/user-guide/desktop"
 user_guide_android: "help/user-guide/android"

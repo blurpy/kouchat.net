@@ -458,6 +458,10 @@ footer small a:hover {
     padding-right: 0;
     margin-left: 0;
   }
+
+  .threeImagesSideBySide img {
+    width: 48% !important;
+  }
 }
 
 /* All Mobile Sizes (devices and browser) */
@@ -531,6 +535,10 @@ footer small a:hover {
     right: 30px;
     width: 100px;
   }
+
+  .threeImagesSideBySide img {
+    width: 70% !important;
+  }
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
@@ -551,6 +559,10 @@ footer small a:hover {
 
 .twoImagesSideBySide img {
     width: 48%;
+}
+
+.threeImagesSideBySide img {
+  width: 32%;
 }
 
 .halfSizeImage img {

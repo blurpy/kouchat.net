@@ -21,6 +21,10 @@ img {
   width: 48%;
 }
 
+.threeImagesSideBySide img {
+  width: 32%;
+}
+
 .halfSizeImage img {
   max-width: 450px !important;
   width: 100%;
