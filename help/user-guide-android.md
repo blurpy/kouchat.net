@@ -13,7 +13,7 @@ This is the user guide for the Android version of KouChat. It runs on both phone
 
 The main chat is a public chat containing all the users on the network. It looks like this:
 
-[![Main Chat]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.0_screenshot_tablet_10_main_chat.png "Main Chat. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.0_screenshot_tablet_10_main_chat.png)
+[![Main Chat]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.1.0_screenshot_tablet_10_main_chat.png "Main Chat. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.1.0_screenshot_tablet_10_main_chat.png)
 
 
 ### Chat area
@@ -62,9 +62,9 @@ You can start a private chat with a user if you do not want everyone to see the 
 
 Click on a user in the user list, and you will get a window like this:
 
-[![Private Chat]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.0_screenshot_tablet_10_private_chat.png "Private Chat. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.0_screenshot_tablet_10_private_chat.png)
+[![Private Chat]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.1.0_screenshot_tablet_10_private_chat.png "Private Chat. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.1.0_screenshot_tablet_10_private_chat.png)
 
-The chat area and input field works just like the main chat. Click on the icon in the top left corner to go back to the main chat, or use the back button.
+The chat area and input field works just like the main chat. Click on the arrow in the top left corner to go back to the main chat, or use the back button.
 
 
 ## Away mode
@@ -77,11 +77,12 @@ You can use away mode to say that you do not wish to be disturbed. When you go a
 * You can not send any messages to the main chat.
 * You can not send or receive private chat messages.
 * Your nick name in the user list turns gray.
+* Heads up display of notifications are disabled, as well as sound and vibration.
 
 When you click Away in the menu, you will get a popup asking for an away message:
 
 <span class="halfSizeImage">
-[![Going away]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.2-go_away_dialog.png "Going away. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.2-go_away_dialog.png)
+[![Going away]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.1.0-go_away_dialog.png "Going away. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.1.0-go_away_dialog.png)
 </span>
 
 The away message can't be empty. After you click OK you are in away mode.
@@ -89,7 +90,7 @@ The away message can't be empty. After you click OK you are in away mode.
 To return from away mode you click on Away in the menu again, but instead of a popup asking for an away message, you get a popup asking if you want to come back from away:
 
 <span class="halfSizeImage">
-[![Coming back from away]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.2-back_from_away_dialog.png "Coming back from away. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.2-back_from_away_dialog.png)
+[![Coming back from away]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.1.0-back_from_away_dialog.png "Coming back from away. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.1.0-back_from_away_dialog.png)
 </span>
 
 After you click OK you are back to normal mode.
@@ -102,7 +103,7 @@ You can set a topic in the main chat that all users, including users joining lat
 When you click Topic in the menu, you will get a popup like this:
 
 <span class="halfSizeImage">
-[![Setting the topic]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.2-topic_dialog.png "Setting the topic. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.2-topic_dialog.png)
+[![Setting the topic]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.1.0-topic_dialog.png "Setting the topic. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.1.0-topic_dialog.png)
 </span>
 
 The popup will initially show the current topic. Change it and click OK to set the new topic of the chat. Blank the field to remove the topic of the chat.
@@ -112,7 +113,7 @@ The popup will initially show the current topic. Change it and click OK to set t
 
 Use the Settings to tweak certain aspects of KouChat.
 
-[![Settings]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v0.14.0_screenshot_tablet_10_settings.png "Settings. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v0.14.0_screenshot_tablet_10_settings.png)
+[![Settings]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.1.0_screenshot_tablet_10_settings.png "Settings. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.1.0_screenshot_tablet_10_settings.png)
 
 Here is a more detailed description:
 
@@ -122,8 +123,11 @@ Set nick name | NewUser | The unique name that identifies you in the chat. A nic
 Set own message color | RGB: <span style="color: #0C0C42;">#0C0C42</span> | The color used when you are sending messages.
 Set info message color | RGB: <span style="color: #004700;">#004700</span> | The color used for information messages from the application.
 Enable wake lock | Off | Enable the wake lock to keep the device from sleeping while KouChat is running. Many devices go to sleep after some time being idle, and disables the network connection. Enabling the wake lock will keep the device from entering sleep. This uses more battery, but might keep the network enabled at all times. Not all devices support this option.
+Enable light | On | Blink the LED light when receiving notifications.
+Enable sound | On | Play a sound when receiving notifications.
+Enable vibration | On | Vibrate when receiving notifications.
 
-Click on the icon in the top left corner to go back to the main chat, or use the back button.
+Click on the arrow in the top left corner to go back to the main chat, or use the back button.
 
 
 ## Notification area
