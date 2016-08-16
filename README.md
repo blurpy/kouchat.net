@@ -7,11 +7,14 @@ served using GitHub Pages and Jekyll.
 You need ruby, gcc and zlib-devel. 
 
 To install gems:
-$ sudo gem install bundler
-$ bundle.ruby2.2 install
+`$ sudo gem install bundler`
+`$ bundle.ruby2.2 install`
 
 To update gems: 
-$ bundle.ruby2.2 update
+`$ bundle.ruby2.2 update`
+
+To run the server:
+`$ ./start.sh`
 
 See https://help.github.com/articles/using-jekyll-with-pages/ for details.
 
