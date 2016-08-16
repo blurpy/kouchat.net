@@ -56,6 +56,15 @@ About | Opens a popup with contact details and other quick information about Kou
 Quit | Quit from the chat, and shutdown the application.
 
 
+### Notifications
+
+Main chat messages will be grouped together in one notification. The 5 latest messages will be displayed, while the unread message counter will keep increasing. Click the notification to open the main chat.
+
+<span class="halfSizeImage">
+[![Main Chat notification]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.1.0-notification_main_chat_full.png "Main Chat notification. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.1.0-notification_main_chat_full.png)
+</span>
+
+
 ## Private chat
 
 You can start a private chat with a user if you do not want everyone to see the conversation.
@@ -65,6 +74,15 @@ Click on a user in the user list, and you will get a window like this:
 [![Private Chat]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.1.0_screenshot_tablet_10_private_chat.png "Private Chat. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.1.0_screenshot_tablet_10_private_chat.png)
 
 The chat area and input field works just like the main chat. Click on the arrow in the top left corner to go back to the main chat, or use the back button.
+
+
+### Notifications
+
+Private chat messages will be shown separately for each user. The 5 latest messages will be displayed, while the unread message counter will keep increasing. Click the notification to open the private chat for that user.
+
+<span class="halfSizeImage">
+[![Private Chat notification]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.1.0-notification_private_chat_full.png "Private Chat notification. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.1.0-notification_private_chat_full.png)
+</span>
 
 
 ## Away mode
