@@ -130,45 +130,17 @@ Enable vibration | On | Vibrate when receiving notifications.
 Click on the arrow in the top left corner to go back to the main chat, or use the back button.
 
 
-## Notification area
+## The KouChat notification
 
 When you start KouChat, it will continue to run in the background until you use Quit from the menu. Just closing the app by using the back or home button will only hide the user interface. Same thing when killing KouChat from the "switch app" screen.
 
-You can see when KouChat is running by looking for the icon in the notification area:
+You can see when KouChat is running by looking for this notification in the notification drawer:
 
 <span class="halfSizeImage">
-[![KouChat icon in the notification area]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.2-notification_area.png "KouChat icon in the notification area. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.2-notification_area.png)
+[![KouChat in the notification drawer]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.1.0-notification_drawer_service.png "KouChat in the notification drawer. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.1.0-notification_drawer_service.png)
 </span>
 
-Besides showing that KouChat is running, the notification area is used for two purposes:
-
-* Notification of new messages
-* Notification of new file transfer requests
-
-See separate topic for more about file transfers.
-
-
-### Message icons
-
-There are 2 different icons used in the notification area to indicate chat status:
-
-Icon | Description
------|------------
-![Normal icon]({{ site.baseurl }}/images/icons/kou_normal_32x32.png) | There is no activity in the chat.
-![Activity icon]({{ site.baseurl }}/images/icons/kou_normal_activity_32x32.png) | There is unseen activity in the chat.
-
-The icons change based on both the main chat and private chat activity.
-
-
-### Drawer
-
-Pull down the notification drawer to see the current chat status:
-
-<span class="halfSizeImage">
-[![KouChat icon in the notification drawer]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.2-notification_drawer.png "KouChat icon in the notification drawer. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.2-notification_drawer.png)
-</span>
-
-If you click on the notification you will be taken to the main chat. This notification can not be removed as long as KouChat is running.
+This is a low priority notification, which means the icon won't be shown in the status bar. Clicking the notification will open the main chat.
 
 
 ## File transfers
@@ -179,7 +151,7 @@ If you click on the notification you will be taken to the main chat. This notifi
 To send a file with KouChat you need to use the share functionality in Android. This examples uses the Gallery:
 
 <span class="halfSizeImage">
-[![Share file with KouChat]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.2-file_transfer_share.png "Share file with KouChat. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.2-file_transfer_share.png)
+[![Share file with KouChat]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.1.0-file_transfer_share.png "Share file with KouChat. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.1.0-file_transfer_share.png)
 </span>
 
 Select KouChat in the list of apps, and you will get another popup where you can select which user to send the file to:
@@ -188,9 +160,11 @@ Select KouChat in the list of apps, and you will get another popup where you can
 [![Select user to send to]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.2-file_transfer_select_user.png "Select user to send to. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.2-file_transfer_select_user.png)
 </span>
 
-The transfer will not start until the other user has accepted the file.
+A notification will be shown immediately after selecting a user, with status and progress of the file transfer. Until the other user has accepted, the status will be "Waiting". You can click the Cancel button at any time to abort.
 
-Note that there is currently no way to monitor the progress or cancel the file transfer from KouChat for Android at the moment. The status will be printed in the main chat when the transfer is done though.
+<span class="halfSizeImage">
+[![Send file progress notification]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.1.0-file_transfer_notification_sending.png "Send file progress notification. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.1.0-file_transfer_notification_sending.png)
+</span>
 
 
 ### Receive file
@@ -198,24 +172,26 @@ Note that there is currently no way to monitor the progress or cancel the file t
 When someone sends a file to you, you will get a notification like this:
 
 <span class="halfSizeImage">
-[![Receive file notification]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.2-file_transfer_notification_message.png "Receive file notification. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.2-file_transfer_notification_message.png)
+[![Receive file notification]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.1.0-file_transfer_notification_request.png "Receive file notification. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.1.0-file_transfer_notification_request.png)
 </span>
 
-Open the notification drawer to view details about the request:
+Click the notification to continue. On Android 6 and newer you will be asked for permission to save files the first time:
 
 <span class="halfSizeImage">
-[![File transfer notification in the drawer]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.2-file_transfer_notification_drawer.png "File transfer notification in the drawer. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.2-file_transfer_notification_drawer.png)
+[![Save file permission dialog]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.1.0-file_transfer_save_permission_dialog.png "Save file permission dialog. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.1.0-file_transfer_save_permission_dialog.png)
 </span>
 
-When you click on the notification you can choose to receive the file or not:
+After accepting, or if you don't need to accept, you can choose to receive the file or not:
 
 <span class="halfSizeImage">
-[![Choose to receive the file]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.2-file_transfer_receive_dialog.png "Choose to receive the file. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.0.2-file_transfer_receive_dialog.png)
+[![Choose to receive the file]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.1.0-file_transfer_receive_dialog.png "Choose to receive the file. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.1.0-file_transfer_receive_dialog.png)
 </span>
 
-The transfer should start immediately if you click Accept. The file is saved to the standard download folder in Android.
+The transfer should start immediately if you click Accept. The notification will be updated with status and progress of the file transfer. You can click the Cancel button at any time to abort. The file is saved to the standard download folder in Android.
 
-Note that there is currently no way to monitor the progress or cancel the file transfer from KouChat for Android at the moment. The status will be printed in the main chat when the transfer is done though.
+<span class="halfSizeImage">
+[![Receive file progress notification]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.1.0-file_transfer_notification_receiving.png "Receive file progress notification. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.1.0-file_transfer_notification_receiving.png)
+</span>
 
 
 ## Smileys
