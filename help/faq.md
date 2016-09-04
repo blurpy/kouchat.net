@@ -8,7 +8,7 @@ title: Frequently Asked Questions
 
 ## 1. What is Kou?
 
-Kou is a cow character I've made. You can see Kou at the [Super Kou](http://superkou.googlecode.com/) project page. Kou is pronounced kind of like the way cows say _moooo_, but it's OK to just call him Cow.
+Kou is a cow character I've made. You can see Kou at the [Super Kou](https://github.com/blurpy/superkou) project page. Kou is pronounced kind of like the way cows say _moooo_, but it's OK to just call him Cow.
 
 
 ## 2. KouChat crashed, doesn't connect, or behaves strangely.
@@ -21,7 +21,7 @@ If you see any errors, write them down. If nothing of interest shows up, then yo
 
 `java -jar kouchat-x.x.x.jar --debug`
 
-Please check the other wiki pages for help as well. When you can reproduce the problem, report it as an issue with as many details as possible.
+Please check the other pages for help as well. When you can reproduce the problem, report it as an issue with as many details as possible.
 
 
 ## 3. I minimized KouChat, and it's not visible on the taskbar anymore.
@@ -76,7 +76,7 @@ Examples:
 
 ## 11. Why do non-ascii characters look wrong when using console mode in Windows?
 
-That's because the command line in Windows uses the old DOS character set instead of the normal Windows character set. A common DOS character set is `cp850` and a common Windows character set is `cp1252`. I've found 2 ways to go around this problem:
+That's because the command line in Windows uses the old DOS character set instead of the normal Windows character set. A common DOS character set is `cp850` and a common Windows character set is `cp1252`. I've found 2 ways to work around this problem:
 
 1. Change the character set on the command line to match the character set used by Windows. If your Windows character set is cp1252, just run the command '`chcp 1252`' before starting KouChat. For this to work you need a console font which supports the chosen character set, like `Lucida Console`.
 2. Change the character set used by Java to match the character set on the command line. You can get the current command line character set by running the command '`chcp`'. Then use the character set number when starting KouChat: `java -Dfile.encoding=850 -jar kouchat-x.x.x.jar --console`
@@ -195,3 +195,11 @@ This is a new bug in Java 7u71 that appears when IPv6 is disabled. Details on th
 If you can't enable IPv6 then you can tell Java to prefer IPv4 as a workaround. Add '`-Djava.net.preferIPv4Stack=true`' to the shortcut command when starting KouChat, like this:
 
 `java -Djava.net.preferIPv4Stack=true -jar kouchat-x.x.x.jar`
+
+
+## 23. Why doesn't the system tray icon respond to clicks in KDE 5?
+
+Known issue with Java applications in KDE 5.
+As a workaround you can disable system tray integration in KouChat 1.3.0.
+
+You can follow the progress here: [issue 19](https://github.com/blurpy/kouchat/issues/19).
