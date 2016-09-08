@@ -43,8 +43,8 @@ It's written in Java, and is [free software](https://www.gnu.org/licenses/lgpl-3
 ## Windows/Linux/Mac OS X
 
 * Make sure you have [Java 6](http://www.java.com/) or newer.
-* Download the KouChat binary (`kouchat-1.2.0.jar`) from the downloads section.
-* Run the binary (jar). No installation necessary.
+* Download the KouChat jar from the downloads section.
+* Run the jar. No installation necessary.
 
 [![KouChat for desktop]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_main_chat_opensuse_nimbus.png "KouChat for desktop. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_main_chat_opensuse_nimbus.png)
 
@@ -52,7 +52,7 @@ It's written in Java, and is [free software](https://www.gnu.org/licenses/lgpl-3
 
 * Make sure you have Android v4.1 or newer.
 * Install KouChat from Google Play or F-Droid.
-* Alternatively: download the KouChat for Android package (`kouchat-android-1.1.0.apk`) from the downloads section, and install using a file manager or similar.
+* Alternatively: download the KouChat for Android apk from the downloads section, and install using a file manager or similar.
 
 [![Google Play](http://www.android.com/images/brand/get_it_on_play_logo_large.png "Get KouChat on Google Play")](https://play.google.com/store/apps/details?id=net.usikkert.kouchat.android)
 [<img src="{{ site.baseurl }}/images/get-it-on-f-droid.png" alt="F-Droid" height="60">](https://f-droid.org/app/net.usikkert.kouchat.android)
