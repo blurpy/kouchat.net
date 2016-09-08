@@ -46,7 +46,7 @@ It's written in Java, and is [free software](https://www.gnu.org/licenses/lgpl-3
 * Download the KouChat jar from the downloads section.
 * Run the jar. No installation necessary.
 
-[![KouChat for desktop]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_main_chat_opensuse_nimbus.png "KouChat for desktop. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_main_chat_opensuse_nimbus.png)
+[![KouChat for desktop]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.3.0_main_chat_opensuse_nimbus.png "KouChat for desktop. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.3.0_main_chat_opensuse_nimbus.png)
 
 ## Android
 

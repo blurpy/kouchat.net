@@ -13,7 +13,7 @@ This is the user guide for the Desktop version of KouChat. The Desktop version r
 
 The main chat is a public chat containing all the users on the network. It looks like this:
 
-[![Main Chat]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_main_chat_opensuse_nimbus.png "Main Chat. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_main_chat_opensuse_nimbus.png)
+[![Main Chat]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.3.0_main_chat_opensuse_nimbus.png "Main Chat. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.3.0_main_chat_opensuse_nimbus.png)
 
 
 ### Chat area
@@ -35,7 +35,7 @@ Style | Description
 Normal font | Other users.
 <span style="color: #848484;">Gray text</span> | User is away.
 Star (*) after the nick name | User is currently writing.
-![Envelope icon]({{ site.baseurl }}/images/icons/envelope.png) | User has sent you a private message.
+<img alt="Envelope icon" src="{{ site.baseurl }}/images/icons/envelope.png" width="16"> | User has sent you a private message.
 
 If you right click on a user in the user list, you will get the following menu items:
 
@@ -55,7 +55,7 @@ Button | Description
 Clear | Clears all the text in the main chat.
 Away | If currently not away: opens a popup asking for an away message. <br>If currently away: opens a popup asking if you want to come back from away.
 Topic | Opens a popup displaying the current topic, with the option of changing it. If the topic is set as empty, it will be removed.
-Minimize | Minimizes KouChat to the system tray, if the system has a system tray. Otherwise, it's minimized to the taskbar.
+Minimize | Minimizes KouChat to the system tray, if enabled and the system has a system tray. Otherwise, it's minimized to the taskbar.
 
 Hover the mouse over the buttons for tooltips.
 
@@ -78,7 +78,7 @@ These are the menu items in the menu bar at the top. All the menu items have key
 
 Menu item | Description
 ----------|------------
-Minimize | Minimizes KouChat to the system tray, if the system has a system tray. Otherwise, it's minimized to the taskbar.
+Minimize | Minimizes KouChat to the system tray, if enabled and the system has a system tray. Otherwise, it's minimized to the taskbar.
 Quit | Quit from the chat, and shutdown the application.
 
 
@@ -200,20 +200,21 @@ The popup will initially show the current topic. Change it and click OK to set t
 
 Use the Settings to tweak certain aspects of KouChat.
 
-[![Settings]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_settings_opensuse_nimbus.png "Settings. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.2.0_settings_opensuse_nimbus.png)
+[![Settings]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.3.0_settings_opensuse_nimbus.png "Settings. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/desktop/kouchat_v1.3.0_settings_opensuse_nimbus.png)
 
 Hover the mouse over the options for tooltips. Here is a more detailed description:
 
 Setting | Default value | Description
 --------|---------------|------------
-Nick | User name from operating system. | The unique name that identifies you in the chat. A nick name can have between 1 and 10 characters. Legal characters are: `a-z`, `0-9`, `-` and `_`.
+Nick name | User name from operating system. | The unique name that identifies you in the chat. A nick name can have between 1 and 10 characters. Legal characters are: `a-z`, `0-9`, `-` and `_`.
 Browser | \<empty\> | When you click on a link in the chat it will open in the browser defined here. If this field is empty the default browser on your system will be used, if possible. Click the Choose button to select the location of the browser executable on the file system, or just enter the name of the browser executable directly if it's on the path. Click the Test button to see if the browser is configured correctly.
 Own text color | RGB: <span style="color: #0C0C42;">#0C0C42</span> | The color used when you are sending messages. Use the Change button to select a different color.
-System text color | RGB: <span style="color: #004700;">#004700</span> | The color used for information messages from the application. Use the Change button to select a different color.
+Info text color | RGB: <span style="color: #004700;">#004700</span> | The color used for information messages from the application. Use the Change button to select a different color.
 Look and feel | System dependent | Allows you to select the look and feel (theme) to use for the user interface. Note that KouChat needs to be restarted for the changes to take effect.
 Enable sound | On | A short sound notification is played when a new message is received if KouChat is out of focus, and when asked to receive a file.
 Enable smileys | On | Replaces text smileys in the chat with smiley images. See own topic further down for a list.
 Enable logging | Off | Stores the conversations in the main chat and private chats to log files. Only text written after the option was enabled will be stored. This may be permanently enabled using a startup argument.
+Enable system tray | On | Shows a system tray icon for hiding KouChat and showing chat activity.
 Enable balloons | Off | Shows balloon notifications in the system tray when new messages are received while KouChat is hidden. See own topic further down.
 Network interface | Auto | Allows you to select the network interface KouChat should use for sending and receiving messages. Select Auto to let KouChat choose. Hover the mouse over the different options in the dropdown to get tooltips with more details about a network interface, if available.
 
@@ -301,17 +302,17 @@ These smileys can be used in the main chat and the private chat.
 
 Code | Smiley
 -----|-------
-:) | ![:)]({{ site.baseurl }}/images/smileys/desktop/smile.png)
-:( | ![:(]({{ site.baseurl }}/images/smileys/desktop/sad.png)
-:p | ![:p]({{ site.baseurl }}/images/smileys/desktop/tongue.png)
-:D | ![:D]({{ site.baseurl }}/images/smileys/desktop/teeth.png)
-;) | ![;)]({{ site.baseurl }}/images/smileys/desktop/wink.png)
-:O | ![:O]({{ site.baseurl }}/images/smileys/desktop/omg.png)
-:@ | ![:@]({{ site.baseurl }}/images/smileys/desktop/angry.png)
-:S | ![:S]({{ site.baseurl }}/images/smileys/desktop/confused.png)
-;( | ![;(]({{ site.baseurl }}/images/smileys/desktop/cry.png)
-:$ | ![:$]({{ site.baseurl }}/images/smileys/desktop/embarrassed.png)
-8) | ![8)]({{ site.baseurl }}/images/smileys/desktop/shade.png)
+:) | <img alt=":)" src="{{ site.baseurl }}/images/smileys/desktop/smile.png" width="22">
+:( | <img alt=":(" src="{{ site.baseurl }}/images/smileys/desktop/sad.png" width="22">
+:p | <img alt=":p" src="{{ site.baseurl }}/images/smileys/desktop/tongue.png" width="22">
+:D | <img alt=":D" src="{{ site.baseurl }}/images/smileys/desktop/teeth.png" width="22">
+;) | <img alt=";)" src="{{ site.baseurl }}/images/smileys/desktop/wink.png" width="22">
+:O | <img alt=":O" src="{{ site.baseurl }}/images/smileys/desktop/omg.png" width="22">
+:@ | <img alt=":@" src="{{ site.baseurl }}/images/smileys/desktop/angry.png" width="22">
+:S | <img alt=":S" src="{{ site.baseurl }}/images/smileys/desktop/confused.png" width="22">
+;( | <img alt=";(" src="{{ site.baseurl }}/images/smileys/desktop/cry.png" width="22">
+:$ | <img alt=":$" src="{{ site.baseurl }}/images/smileys/desktop/embarrassed.png" width="22">
+8) | <img alt="8)" src="{{ site.baseurl }}/images/smileys/desktop/shade.png" width="22">
 
 
 ## Commands
@@ -352,7 +353,7 @@ Replace `<argument>` with either the short or the full argument from the table b
 Short | Full | Description
 ------|------|------------
 `-c` | `--console` | Starts KouChat in console mode. See the [user guide for console]({{site.baseurl}}/{{site.user_guide_console}}) for more details.
- | `--minimized` | Starts KouChat minimized to the system tray, or the taskbar if the system tray is missing. Useful when starting KouChat automatically on boot. *New in 1.3.0*
+ | `--minimized` | Starts KouChat minimized to the system tray, or the taskbar if the system tray is disabled or missing. Useful when starting KouChat automatically on boot.
 `-d` | `--debug` | Starts KouChat with verbose debug output enabled. The output is visible in the console.
 `-h` | `--help` | Lists all commands with a short description of them.
 `-v` | `--version` | Shows version information.
