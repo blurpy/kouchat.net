@@ -227,6 +227,9 @@ ul, ol, dl {
   margin-bottom: 20px;
 }
 
+ul ul {
+  margin-bottom: 0px;
+}
 
 /* COMMON STYLES */
 
