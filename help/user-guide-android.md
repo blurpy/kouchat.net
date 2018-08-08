@@ -137,7 +137,9 @@ Use the Settings to tweak certain aspects of KouChat.
 
 [![Settings]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.1.0_screenshot_tablet_10_settings.png "Settings. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.1.0_screenshot_tablet_10_settings.png)
 
-Here is a more detailed description:
+Click on the arrow in the top left corner to go back to the main chat, or use the back button.
+
+Here is a more detailed description of the settings:
 
 Setting | Default value | Description
 --------|---------------|------------
@@ -149,20 +151,28 @@ Enable light | On | Blink the LED light when receiving notifications.
 Enable sound | On | Play a sound when receiving notifications.
 Enable vibration | On | Vibrate when receiving notifications.
 
-Click on the arrow in the top left corner to go back to the main chat, or use the back button.
+The notification settings are only visible on Android 7 (Nougat) and below. On Android 8 (Oreo) and newer you get much more control and can configure notifications by clicking `Configure notifications`.
+
+<span class="threeImagesSideBySide">
+[![Settings]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.1.1-settings.png "Settings. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.1.1-settings.png)
+[![Notification Settings]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.1.1-notification-settings.png "Notification Settings. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.1.1-notification-settings.png)
+[![File transfer Notification Settings]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.1.1-notification-settings-file-transfer.png "File transfer Notification Settings. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.1.1-notification-settings-file-transfer.png)
+</span> 
+
+Click on a category for many configuration options.
 
 
 ## The KouChat notification
 
 When you start KouChat, it will continue to run in the background until you use Quit from the menu. Just closing the app by using the back or home button will only hide the user interface. Same thing when killing KouChat from the "switch app" screen.
 
-You can see when KouChat is running by looking for this notification in the notification drawer:
+You can see when KouChat is running by looking for this (Service) notification in the notification drawer:
 
 <span class="halfSizeImage">
 [![KouChat in the notification drawer]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.1.0-notification_drawer_service.png "KouChat in the notification drawer. Click to enlarge.")]({{ site.baseurl }}/images/screenshots/android/kouchat_android_v1.1.0-notification_drawer_service.png)
 </span>
 
-This is a low priority notification, which means the icon won't be shown in the status bar. Clicking the notification will open the main chat.
+This is a low priority notification, which means the icon may not be showing in the status bar, depending on version of Android. Clicking the notification will open the main chat.
 
 
 ## File transfers
