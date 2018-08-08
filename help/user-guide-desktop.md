@@ -5,8 +5,12 @@ title: User guide for Desktop
 ---
 
 # User guide for Desktop
+{:.no_toc}
 
 This is the user guide for the Desktop version of KouChat. The Desktop version runs on Windows, Linux and Mac OS X.
+
+* An unordered list which will be replaced with the ToC
+{:toc}
 
 
 ## Main chat

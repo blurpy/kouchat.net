@@ -5,8 +5,12 @@ title: User guide for Android
 ---
 
 # User guide for Android
+{:.no_toc}
 
 This is the user guide for the Android version of KouChat. It runs on both phones and tablets.
+
+* An unordered list which will be replaced with the ToC
+{:toc}
 
 
 ## Main chat

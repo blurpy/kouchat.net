@@ -5,6 +5,11 @@ title: Frequently Asked Questions
 ---
 
 # Frequently Asked Questions
+{:.no_toc}
+
+* An unordered list which will be replaced with the ToC
+{:toc}
+
 
 ## 1. What is Kou?
 

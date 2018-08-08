@@ -5,9 +5,12 @@ title: Tips And Tricks
 ---
 
 # Tips And Tricks
-
+{:.no_toc}
 
 Become a KouChat power user with these tips & tricks :)
+
+* An unordered list which will be replaced with the ToC
+{:toc}
 
 
 ## 1. Minimize with escape

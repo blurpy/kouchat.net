@@ -5,10 +5,14 @@ title: User guide for Console
 ---
 
 # User guide for Console
+{:.no_toc}
 
 This is the user guide for the Console version of KouChat.
 
 It's part of KouChat for Desktop, and must be started with the `--console` startup argument for the console mode to be enabled.
+
+* An unordered list which will be replaced with the ToC
+{:toc}
 
 
 ## Main chat
